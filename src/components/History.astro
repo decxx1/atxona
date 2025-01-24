@@ -1,0 +1,23 @@
+---
+import { getI18N } from "@/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+<section class="bg-white py-40">
+    <div class="container mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
+            <div class="relative text-[#070707] leading-6 lg:leading-8 text-lg xs:text-xl lg:text-2xl text-left font-medium px-4 md:px-6 lg:px-0">
+                <div class="absolute -top-36 -left-20 sm:-top-10 sm:-left-20 md:-top-12 md:-left-24 lg:-top-8 lg:-left-28 flex">
+                    <img loading="lazy" src="/images/about/pergamino.svg" class="w-56" /> 
+                </div>
+                <p class="max-sm:mt-16 sm:ml-36 mb-6" set:html={i18n.about.history.parragraph1}></p>
+                <p class="mb-6">{i18n.about.history.parragraph2}</p>
+                <p>{i18n.about.history.parragraph3}</p>
+            </div>
+            <div class="flex items-center justify-center max-lg:mt-10 lg:items-start lg:justify-end ">
+                <img class="w-auto h-80 lg:h-96" src="/images/about/retrato.jpg" loading="lazy" alt="retrato" />
+            </div>
+        </div>
+    </div>
+</section>

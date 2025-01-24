@@ -1,0 +1,25 @@
+---
+import IndexPage from '@/components/pages/Index.astro';
+import Layout from '@/layouts/Layout.astro';
+const preloadImages = [
+	{
+		href:"/images/index/hero.webp",
+		as: "image",
+		type: "image/webp",
+	}
+];
+import { getI18N } from "@/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+
+<Layout
+	title={i18n.index.metaData.title}
+	canonical="https://atxona.com.ar"
+	metaDescription={i18n.index.metaData.description}
+	metaImg="https://atxona.com.ar/images/index/hero.webp"
+	preLoad={preloadImages}
+>
+	<IndexPage />
+</Layout>

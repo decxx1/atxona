@@ -1,0 +1,12 @@
+---
+import CarouselComponent from '@/components/Carousel.jsx'
+import History from '@/components/History.astro'
+import Tradition from '@/components/Tradition.astro'
+import { getI18N } from "@/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+<CarouselComponent title={i18n.about.title} images={["/images/about/cosecha-racimo.png"]} client:load />
+<History />
+<Tradition />
