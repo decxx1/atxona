@@ -62,6 +62,14 @@
             "button": "(ver fichas técnicas)",
             "footer": "Todos nuestros procesos productivos en la finca se han ido adaptando hacia las nuevas tendencias globales de estándares de calidad, complementados con los procesos de empaque de almacenamiento y de traslado. Aplicando acciones concretas en la ejecución de la trazabilidad protegiendo la calidad y la naturalidad de nuestros productos y logrando la sostenibilidad en el tiempo."
         }
+    },
+    "services": {
+        "metaData":{
+            "title": "Atxona - Servicios",
+            "description": "contamos con una Planta de Procesos, ubicada en las proximidades de nuestros cultivos, optimizando tiempos de traslado y protegiendo el producto"
+        },
+        "hero": "<strong>Tecnología</strong> e <strong>Innovación</strong><br>en los procesos.",
+        "transfer": "En Grupo Atxona contamos con una <strong>Planta de Procesos</strong>, ubicada <strong>en las proximidades</strong> de nuestros cultivos, <strong>optimizando tiempos</strong> de traslado, <strong>protegiendo así el producto</strong> en todos las etapas de manipulación."
     }
     
 }

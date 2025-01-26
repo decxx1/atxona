@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const ImageCarousel = ({ title, images }) => {
+export default function ImageCarousel ({ title, images }) {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const goToPrevious = () => {
@@ -34,12 +34,12 @@ const ImageCarousel = ({ title, images }) => {
       ))}
       {/* <!-- gradient --> */}
       <div className="absolute z-30 bottom-0 w-full h-full bg-gradient-to-t from-black/80 via-transparent to-transparent">
-        </div>
+      </div>
         {/* <!-- Texto --> */}
-        <div className="absolute z-40 max-md:left-1/2 max-md:-translate-x-1/2 [@media(max-height:700px)]:bottom-16 bottom-28 md:right-28 p-4 max-md:w-full">
-            <h1 className="text-5xl sm:text-6xl text-center md:text-7xl 2xl:text-8xl text-white md:text-right " dangerouslySetInnerHTML={{ __html: title }}>
-            </h1>
-        </div>
+      <div className="absolute z-40 max-md:left-1/2 max-md:-translate-x-1/2 [@media(max-height:700px)]:bottom-16 bottom-28 md:right-28 p-4 max-md:w-full">
+        <h1 className="text-5xl sm:text-6xl text-center md:text-7xl 2xl:text-8xl text-white md:text-right " dangerouslySetInnerHTML={{ __html: title }}>
+        </h1>
+      </div>
 
       {images.length > 1 && (
         <>
@@ -76,5 +76,3 @@ const ImageCarousel = ({ title, images }) => {
     </div>
   )
 }
-
-export default ImageCarousel
