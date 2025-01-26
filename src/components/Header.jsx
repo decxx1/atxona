@@ -78,7 +78,10 @@ export default function Header({currentLocale}){
                     <a href="/">
                         <img src="/images/logos/atxona.svg" alt="Logo Atxona" className={`${scrolled ? "lg:w-56" : "xl:w-72" } w-56 md:w-64  transition-all duration-300`} />
                     </a>
-                    <svg onClick={() => handleMenuMobile()} className={`${!isMobile ? "hidden" : ""} w-16 text-textLogo hover:text-white rounded hover:bg-terceary p-2 cursor-pointer`}  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="currentColor" fillRule="evenodd" d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75M2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8m6 4.25a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75" clipRule="evenodd"/></svg>
+                    {
+                        isMobile &&
+                        <svg onClick={() => handleMenuMobile()} className={`w-16 text-textLogo hover:text-white rounded hover:bg-terceary p-2 cursor-pointer`}  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="currentColor" fillRule="evenodd" d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75M2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8m6 4.25a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75" clipRule="evenodd"/></svg>
+                    }
                     {/* Navegación */}
                     <nav className={`${classNav()} text-xl lg:text-base xl:text-xl font-normal uppercase flex gap-8 lg:gap-4 transition-all duration-300`}>
                         {
@@ -94,10 +97,10 @@ export default function Header({currentLocale}){
                             )
                         }
                         <a href="/about" className="hover:font-bold">{i18n.navBar.about}</a>
-                        <a href="/about" className="hover:font-bold">{i18n.navBar.production}</a>
-                        <a href="/blog" className="hover:font-bold">{i18n.navBar.services}</a>
-                        <a href="/blog" className="hover:font-bold">{i18n.navBar.comerce}</a>
-                        <a href="/blog" className="hover:font-bold">{i18n.navBar.contact}</a>
+                        <a href="/production" className="hover:font-bold">{i18n.navBar.production}</a>
+                        <a href="/services" className="hover:font-bold">{i18n.navBar.services}</a>
+                        <a href="/comerce" className="hover:font-bold">{i18n.navBar.comerce}</a>
+                        <a href="/contact" className="hover:font-bold">{i18n.navBar.contact}</a>
                     </nav>
                 </div>
             </div>

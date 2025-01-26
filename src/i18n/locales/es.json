@@ -6,20 +6,10 @@
         "comerce": "Comercialización",
         "contact": "Contacto"
     },
-    "about":{
-        "metaData":{
-            "title": "Atxona - Quiénes Somos",
-            "description": "Con una tradición familiar de esfuerzo, trabajo y compromiso, Atxona se dedicada a la producción y comercialización de frutas frescas con y sin semillas"
-        },
-        "title": "Nuestra <strong class='font-bold'><br/>Historia</strong>",
-        "history": {
-            "parragraph1": "<strong>La historia del Grupo Atxona</strong> se remonta al año 1.910 cuando Don Severiano Salvarredi Esnaola y sus hermanos partieron desde la provincia de Guipúzcoa, del norte de la Península Ibérica hacia Argentina.",
-            "parragraph2": "Llegaron con pocas pertenencias, pero llenos de ilusiones, esperanzas y con el sueño, como el de muchos inmigrantes: de “hacer la América”.",
-            "parragraph3": "En 1913, Don Severiano junto a su esposa e hijos (entre ellos, Guillermo, nuestro Atxona = que en euskera significa “ABUELO”) se establecieron en Alto Verde, San Martín, Mendoza “Tierra del Sol y del Buen Vino”."
-        },
-        "tradition": {
-            "parragraph1": "Con el paso de los años, y guiados por una visión certera del futuro, decidieron dedicarse a la <strong>vitivinicultura</strong>, aprovechandolas excelentes condiciones agroclimáticas que Mendoza les ofrecía, para luego, especializarse en el cultivo de <strong>uvas frescas con y sin semilla</strong> y en la <strong>producción, almacenamiento, empaque y comercialización de frutas frescas en general.</strong>",
-            "parragraph2": "La tradición familiar de esfuerzo, trabajo y compromiso con la palabra empeñada se ha transmitido a lo largo de tres generaciones, marcadas por los valores de responsabilidad, dedicación y trabajo en equipo."
+    "footer":{
+        "credits":{
+            "first": "Diseña",
+            "second": "Desarrolla"
         }
     },
     "index":{
@@ -35,10 +25,43 @@
             "parragraph2": "Nuestra visión es consolidarnos como un <strong class='font-bold'>grupo empresario líder en la producción, empaque y comercialización de frutas frescas</strong>, especialmente uvas de mesa con y sin semilla, destacando por nuestra inocuidade innovación <strong class='font-bold'>a nivel nacional e internacional</strong>."
         }
     },
-    "footer":{
-        "credits":{
-            "first": "Diseña",
-            "second": "Desarrolla"
+    "about":{
+        "metaData":{
+            "title": "Atxona - Quiénes Somos",
+            "description": "Con una tradición familiar de esfuerzo, trabajo y compromiso, Atxona se dedicada a la producción y comercialización de frutas frescas con y sin semillas"
+        },
+        "hero": "Nuestra <strong class='font-bold'><br/>Historia</strong>",
+        "history": {
+            "parragraph1": "<strong>La historia del Grupo Atxona</strong> se remonta al año 1.910 cuando Don Severiano Salvarredi Esnaola y sus hermanos partieron desde la provincia de Guipúzcoa, del norte de la Península Ibérica hacia Argentina.",
+            "parragraph2": "Llegaron con pocas pertenencias, pero llenos de ilusiones, esperanzas y con el sueño, como el de muchos inmigrantes: de “hacer la América”.",
+            "parragraph3": "En 1913, Don Severiano junto a su esposa e hijos (entre ellos, Guillermo, nuestro Atxona = que en euskera significa “ABUELO”) se establecieron en Alto Verde, San Martín, Mendoza “Tierra del Sol y del Buen Vino”."
+        },
+        "tradition": {
+            "parragraph1": "Con el paso de los años, y guiados por una visión certera del futuro, decidieron dedicarse a la <strong>vitivinicultura</strong>, aprovechandolas excelentes condiciones agroclimáticas que Mendoza les ofrecía, para luego, especializarse en el cultivo de <strong>uvas frescas con y sin semilla</strong> y en la <strong>producción, almacenamiento, empaque y comercialización de frutas frescas en general.</strong>",
+            "parragraph2": "La tradición familiar de esfuerzo, trabajo y compromiso con la palabra empeñada se ha transmitido a lo largo de tres generaciones, marcadas por los valores de responsabilidad, dedicación y trabajo en equipo."
+        }
+    },
+    "production":{
+        "metaData":{
+            "title": "Atxona - Producción",
+            "description": "Cultivamos calidad, cosechamos confianza. Nos dedicamos al desarrollo y a la producción de vides, y de otras frutas y verduras de estación"
+        },
+        "hero": "Cultivamos <strong>calidad</strong>,<br/> cosechamos <strong>confianza</strong>",
+        "development": "En Finca Atxona, nos dedicamos al <strong>desarrollo</strong> y a la <strong>producción de vides</strong> y de otras <strong>frutas y verduras de estación.</strong>",
+        "technicalSheet": {
+            "blackGrapes" : "Uvas sin semilla negras",
+            "redGlobeGrapes" : "Uvas sin semilla Red Globe",
+            "redGrapes" : "Uvas sin semilla rojas",
+            "pinkGrapes" : "Uvas sin semilla rosadas",
+            "greenGrapes" : "Uvas sin semilla verdes"
+        },
+        "processes": {
+            "title": "Poseemos parcelas propias de vides asignadas a:",
+            "parragraph1": "Producción de uvas de mesa con y sin semilla para consumo en fresco",
+            "parragraph2": "Producción de vides para vinificar.",
+            "button": "(ver fichas técnicas)",
+            "footer": "Todos nuestros procesos productivos en la finca se han ido adaptando hacia las nuevas tendencias globales de estándares de calidad, complementados con los procesos de empaque de almacenamiento y de traslado. Aplicando acciones concretas en la ejecución de la trazabilidad protegiendo la calidad y la naturalidad de nuestros productos y logrando la sostenibilidad en el tiempo."
         }
     }
+    
 }

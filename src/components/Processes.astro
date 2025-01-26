@@ -1,0 +1,126 @@
+---
+import Item from "@/assets/item.svg";
+import { getI18N } from "@/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+<script>
+	import PhotoSwipeLightbox from "photoswipe/lightbox";
+	import "photoswipe/style.css";
+
+	const lightbox = new PhotoSwipeLightbox({
+        dataSource: [
+			// simple image
+			{
+				src: "/images/fichas-tecnicas/uvas-negras.jpg",
+				width: 2250,
+				height: 1850,
+				alt: "Uvas sin semilla Negras",
+			},
+			{
+				src: "/images/fichas-tecnicas/uvas-red-globe.jpg",
+				width: 2250,
+				height: 1850,
+				alt: "Uvas sin semilla Red Globe",
+			},
+            {
+				src: "/images/fichas-tecnicas/uvas-rojas.jpg",
+				width: 2250,
+				height: 1850,
+				alt: "Uvas sin semilla rojas",
+			},
+            {
+				src: "/images/fichas-tecnicas/uvas-rosadas.jpg",
+				width: 2250,
+				height: 1850,
+				alt: "Uvas sin semilla rosadas",
+			},
+            {
+				src: "/images/fichas-tecnicas/uvas-verdes.jpg",
+				width: 2250,
+				height: 1850,
+				alt: "Uvas sin semilla verdes",
+			},
+		],
+		showHideAnimationType: "none",
+		pswpModule: () => import("photoswipe")
+    });
+
+	lightbox.init();
+	const galleryButton: HTMLButtonElement = document.querySelector("#btn-open-pswp");
+	
+    galleryButton.onclick = () => {
+		lightbox.loadAndOpen(0); 
+	};
+</script>
+<section class="relative h-[600px] xs:h-[700px] sm:h-[800px]">
+	<!-- Gradiente -->
+	<div
+		class="absolute z-30 bottom-0 w-full h-full bg-gradient-to-r from-black/60 via-transparent to-transparent"
+	>
+	</div>
+	<div class="md:container md:mx-auto">
+		<!-- Imagen de fondo -->
+		<img
+			src="/images/production/cosechador.jpg"
+			alt="cosechador de vides"
+			loading="lazy"
+			class="absolute inset-0 w-full h-full object-cover -z-10"
+		/>
+
+		<!-- Contenido superpuesto -->
+		<div
+			class="absolute mx-4 xs:mx-6 z-40 h-full flex flex-col items-start justify-center"
+		>
+			<div
+				class="w-full sm:w-[25rem] md:w-[30rem] lg:w-[35rem] xl:w-[45rem] text-left font-bold text-white"
+			>
+				<h3
+					class="mb-8 sm:mb-12 text-xl xs:text-2xl lg:text-3xl leading-8 lg:leading-10"
+				>
+					{i18n.production.processes.title}
+				</h3>
+				<ul class="text-lg xs:text-xl lg:text-2xl">
+					<li class="flex flex-row gap-8 mb-4">
+						<Item class="w-4 mt-2 text-white flex-shrink-0" />
+						<div>
+							<p class="leading-8 lg:leading-10">
+								{i18n.production.processes.parragraph1}
+							</p>
+							<button class="text-secondary" id="btn-open-pswp"
+								>{i18n.production.processes.button}</button
+							>
+						</div>
+					</li>
+					<hr class="border-2 mb-4" />
+					<li class="flex flex-row gap-8 mb-10">
+						<Item class="w-4 mt-2 text-white flex-shrink-0" />
+						<p class="leading-8 lg:leading-10">
+							{i18n.production.processes.parragraph2}
+						</p>
+					</li>
+					<li>
+						<img
+							src="/images/production/tractor-icon.svg"
+							class="w-40 lg:w-52"
+							loading="lazy"
+							alt="tractor icono"
+						/>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="bg-white py-20">
+	<div class="container mx-auto">
+		<div
+			class="font-light text-left text-lg sm:text-xl md:text-2xl lg:text-3xl text-[#050505]"
+		>
+			<p class="md:columns-2 max-sm:px-4">
+				{i18n.production.processes.footer}
+			</p>
+		</div>
+	</div>
+</section>

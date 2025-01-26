@@ -36,8 +36,8 @@ const ImageCarousel = ({ title, images }) => {
       <div className="absolute z-30 bottom-0 w-full h-full bg-gradient-to-t from-black/80 via-transparent to-transparent">
         </div>
         {/* <!-- Texto --> */}
-        <div className="absolute z-40 max-md:left-1/2 max-md:-translate-x-1/2 bottom-28 md:right-28 p-4 max-md:w-full">
-            <h1 className="text-6xl text-center md:text-7xl 2xl:text-8xl text-white md:text-right " dangerouslySetInnerHTML={{ __html: title }}>
+        <div className="absolute z-40 max-md:left-1/2 max-md:-translate-x-1/2 [@media(max-height:700px)]:bottom-16 bottom-28 md:right-28 p-4 max-md:w-full">
+            <h1 className="text-5xl sm:text-6xl text-center md:text-7xl 2xl:text-8xl text-white md:text-right " dangerouslySetInnerHTML={{ __html: title }}>
             </h1>
         </div>
 

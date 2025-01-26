@@ -1,0 +1,26 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ServicesPage from '@/components/pages/Services.astro';
+
+const preloadImages = [
+	{
+		href:"/images/index/finca.jpg",
+		as: "image",
+		type: "image/jpg",
+	}
+];
+import { getI18N } from "@/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+
+<Layout
+	title={i18n.production.metaData.title}
+	canonical="https://atxona.com.ar"
+	metaDescription={i18n.production.metaData.description}
+	metaImg="https://atxona.com.ar/images/index/hero.jpg"
+	preLoad={preloadImages}
+>
+	<ServicesPage />
+</Layout>
