@@ -1,13 +1,56 @@
 ---
 import CarouselComponent from '@/components/Carousel.jsx'
-
+import Motto from '@/components/Motto.astro'
+import Item from "@/assets/item.svg";
+import ImageText from '@/components/ImageText.astro'
 import { getI18N } from "@/i18n";
 
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
 ---
 <CarouselComponent
-    title={i18n.production.hero}
-    images={["/images/production/tractor-con-uvas.jpg"]}
+    title={i18n.services.hero}
+    images={["/images/services/empaque.jpg"]}
     client:load
 />
+<Motto title={i18n.services.transfer}/>
+<ImageText
+    image={{
+		src:"/images/services/packing.jpg",
+		alt: "Empaque"
+	}}
+>
+    <h2 class="font-bold text-3xl lg:text-5xl lx:text-6xl mb-8">{i18n.services.packing.title}</h2>
+    <p class="mb-6">
+        {i18n.services.packing.parragraph1}
+    </p>
+    <p class="mb-6">
+        {i18n.services.packing.parragraph2}
+    </p>
+    <p>
+        {i18n.services.packing.parragraph3}
+    </p>
+</ImageText>
+<ImageText
+    image={{
+		src:"/images/services/packing2.jpg",
+		alt: "Empaque"
+	}}
+    rtl={true}
+>
+    <h2 class="font-bold text-3xl lg:text-5xl lx:text-6xl mb-8">{i18n.services.cold.title}</h2>
+    <p class="mb-6">
+        {i18n.services.cold.parragraph1}
+    </p>
+    <ul class="mb-6 font-medium">
+        <li class="mb-3">
+            <Item class="w-4 mt-2 text-[#303030] flex-shrink-0 inline-flex -ml-8 mr-3" /> {i18n.services.cold.parragraph2.item1}
+        </li>
+        <li>
+            <Item class="w-4 mt-2 text-[#303030] flex-shrink-0 inline-flex -ml-8 mr-3" /> {i18n.services.cold.parragraph2.item2}
+        </li>
+    </ul>
+    <p>
+        {i18n.services.cold.parragraph3}
+    </p>
+</ImageText>

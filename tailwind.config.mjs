@@ -17,7 +17,7 @@ export default {
 			colors: {
 				"primary":"#617669",
 				"secondary": "#e1e2bf",
-				"terceary": "#2a6439",
+				"tertiary": "#2a6439",
 				"textLogo": "#636569"
 			},
 			fontFamily: {

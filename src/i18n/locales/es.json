@@ -3,7 +3,7 @@
         "about": "Quiénes somos",
         "production": "Producción",
         "services": "Servicios",
-        "comerce": "Comercialización",
+        "marketing": "Comercialización",
         "contact": "Contacto"
     },
     "footer":{
@@ -69,7 +69,34 @@
             "description": "contamos con una Planta de Procesos, ubicada en las proximidades de nuestros cultivos, optimizando tiempos de traslado y protegiendo el producto"
         },
         "hero": "<strong>Tecnología</strong> e <strong>Innovación</strong><br>en los procesos.",
-        "transfer": "En Grupo Atxona contamos con una <strong>Planta de Procesos</strong>, ubicada <strong>en las proximidades</strong> de nuestros cultivos, <strong>optimizando tiempos</strong> de traslado, <strong>protegiendo así el producto</strong> en todos las etapas de manipulación."
+        "transfer": "En Grupo Atxona contamos con una <strong class='font-bold'>Planta de Procesos</strong>, ubicada <strong class='font-bold'>en las proximidades</strong> de nuestros cultivos, <strong class='font-bold'>optimizando tiempos</strong> de traslado, <strong class='font-bold'>protegiendo así el producto</strong> en todos las etapas de manipulación.",
+        "packing": {
+            "title": "Empaque",
+            "parragraph1": "Brindamos un servicio de calidad en el embalaje de uvas frescas provenientes de nuestra Finca Atxona y al mismo tiempo ofrecemos servicio de empaque para frutas frescas de terceros.",
+            "parragraph2": "Adaptamos nuestros  servicios de empaque en función de los requerimientos de los destinos comerciales (nacionales e internacionales) de la fruta.",
+            "parragraph3": "Trabajamos bajo un Sistema de gestión de calidad y seguridad alimentaria, respetando estándares mundiales, lo que nos permite validar nuestros procesos, asegurando la obtención de un producto de excelencia."
+        },
+        "cold": {
+            "title": "Frío",
+            "parragraph1": "Poseemos un sistema frigorífico con más de 600 m2 cubiertos, distribuidos estratégicamente:",
+            "parragraph2": {
+                "item1": "2 cámaras de frío convencional, para almacenar más de 800 pallets.",
+                "item2": "1 Túnel de pre frío para almacenar más de 16 pallets."
+            },
+            "parragraph3": "Nuestras instalaciones nos permiten prestar un efectivo servicio de almacenamiento y enfriado, tanto para fruta a granel como de producto embalado y listo para despacho y comercialización (clamshells / cajas / pallets)."
+        }
+    },
+    "marketing":{
+        "metaData":{
+            "title": "Atxona - Comercialización"
+        },
+        "hero": "<strong>Importamos</strong> y <strong>exportamos</strong> sabor natural al mundo.",
+        "international": "Grupo Atxona ha fortalecido su presencia en los <strong class='font-bold'>mercados globales</strong>, conectando con los principales centros de distribución tanto en el <strong class='font-bold'>mercado interno</strong>, Buenos Aires, Córdoba y Mendoza, como en el <strong class='font-bold'>mercado externo</strong>, colaborando principalmente con mayoristas de fruta de Brasil, Chile y Perú entre otros.",
+        "transport": {
+            "parragraph1": "Gracias a nuestra tecnología de refrigeración de última generación, aseguramos la cadena de frío en todo el proceso, manteniendo la frescura de las frutas desde el origen hasta el cliente final. ",
+            "parragraph2": "Esto nos permite trabajar con supermercados y mayoristas que valoran tanto la calidad, como los formatos de presentación de nuestros productos.",
+            "parragraph3": "Nuestro sistema de logística just-in-time cumple con los estándares más altos del sector frutícola y garantiza entregas en tiempo y forma."
+        }
     }
     
 }

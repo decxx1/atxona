@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.45 37.92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #003893;
+      }
+
+      .cls-2 {
+        fill: #ce1126;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: .94px;
+      }
+
+      .cls-4 {
+        fill: #fcd116;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g id="Layer_2" data-name="Layer 2">
+        <g id="Colombia">
+          <circle class="cls-4" cx="18.74" cy="19.66" r="18.25"/>
+          <path class="cls-1" d="M37,19.66c0,10.08-8.17,18.25-18.25,18.25S.49,29.74,.49,19.66H37Z"/>
+          <path class="cls-2" d="M2.6,28.18c4.7,8.91,15.74,12.33,24.65,7.63,3.25-1.72,5.91-4.37,7.63-7.63H2.6Z"/>
+        </g>
+      </g>
+      <circle class="cls-3" cx="18.72" cy="18.72" r="18.26"/>
+    </g>
+  </g>
+</svg>

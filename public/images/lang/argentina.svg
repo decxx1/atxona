@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.45 37.45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f0f0f0;
+      }
+
+      .cls-2 {
+        fill: #ffda44;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: .94px;
+      }
+
+      .cls-4 {
+        fill: #74acdf;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g id="_36_Multicolor_Flag_mc_36_flag_argentina" data-name="36 Multicolor / Flag / mc_36_flag_argentina">
+        <g id="mc_36_flag_Argentina" data-name="mc 36 flag Argentina">
+          <path id="Oval" class="cls-1" d="M18.79,36.36c9.93,0,17.99-8.05,17.99-17.99S28.72,.38,18.79,.38,.8,8.44,.8,18.37s8.05,17.99,17.99,17.99Z"/>
+          <path id="Shape" class="cls-4" d="M2.58,10.55C5.49,4.53,11.66,.38,18.79,.38s13.29,4.15,16.2,10.17H2.58Zm32.41,15.64c-2.91,6.02-9.07,10.17-16.2,10.17S5.49,32.21,2.58,26.19H34.99Z"/>
+          <path id="Path" class="cls-2" d="M24.16,18.37l-2.2,1.03,1.17,2.13-2.39-.46-.3,2.41-1.66-1.77-1.66,1.77-.3-2.41-2.39,.46,1.17-2.13-2.2-1.03,2.2-1.03-1.17-2.13,2.39,.46,.3-2.41,1.66,1.77,1.66-1.77,.3,2.41,2.39-.46-1.17,2.13,2.2,1.03Z"/>
+        </g>
+      </g>
+      <circle class="cls-3" cx="18.72" cy="18.72" r="18.26"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.51 37.45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f0f0f0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: .94px;
+      }
+
+      .cls-3 {
+        fill: #0039a6;
+      }
+
+      .cls-4 {
+        fill: #d80027;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g id="Chile">
+        <circle class="cls-1" cx="18.29" cy="18.74" r="18.29"/>
+        <path class="cls-4" d="M36.58,18.74c0,10.12-8.17,18.29-18.29,18.29S0,28.86,0,18.74H36.58Z"/>
+        <path class="cls-3" d="M0,18.74C0,8.62,8.17,.45,18.29,.45V18.74H0Z"/>
+        <polygon class="cls-1" points="13.65 15.33 10.97 13.38 8.29 15.33 9.27 12.16 6.58 10.21 10 10.21 10.97 7.04 11.95 10.21 15.36 10.21 12.68 12.16 13.65 15.33"/>
+      </g>
+      <circle class="cls-2" cx="18.79" cy="18.72" r="18.26"/>
+    </g>
+  </g>
+</svg>

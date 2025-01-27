@@ -1,0 +1,105 @@
+---
+import Product from "@/components/Product.astro"
+
+const products = [
+    {
+        name:"Paltas",
+        variety: "Hass",
+        image: "/images/marketing/products/kiwi.png",
+        countries: [
+            "chile","pt","peru","colombia"
+        ]
+    },
+    {
+        name:"Kiwi",
+        variety: "HAYWARD",
+        image: "/images/marketing/products/kiwi.png",
+        countries: [
+            "chile","italia","grecia"
+        ]
+    },
+    {
+        name:"Uvas",
+        variety: "",
+        image: "/images/marketing/products/uvas.png",
+        countries: [
+            "argentina","chile","pt","peru"
+        ]
+    },
+    {
+        name:"Cítricos",
+        variety: "Pomelo, Naranja y limón",
+        image: "/images/marketing/products/citricos.png",
+        countries: [
+            "esp","chile"
+        ]
+    },
+    {
+        name:"Manzanas",
+        variety: "Roja y verde",
+        image: "/images/marketing/products/manzanas.png",
+        countries: [
+            "argentina","usa", "chile"
+        ]
+    },
+    {
+        name:"Tomates",
+        variety: "",
+        image: "/images/marketing/products/tomates.png",
+        countries: [
+            "argentina", "chile"
+        ]
+    },
+    {
+        name:"Melones",
+        variety: "",
+        image: "/images/marketing/products/melones.png",
+        countries: [
+            "argentina", "pt"
+        ]
+    },
+    {
+        name:"Arándanos",
+        variety: "",
+        image: "/images/marketing/products/arandanos.png",
+        countries: [
+            "argentina", "chile"
+        ]
+    },
+    {
+        name:"Nectarines",
+        variety: "",
+        image: "/images/marketing/products/nectarines.png",
+        countries: [
+            "argentina","esp", "chile"
+        ]
+    },
+    {
+        name:"Ciruelas",
+        variety: "",
+        image: "/images/marketing/products/ciruelas.png",
+        countries: [
+            "argentina","esp", "chile"
+        ]
+    },
+
+]
+---
+<section class="bg-white py-20">
+    <div class="container mx-auto mb-20">
+        <hr class="border border-[#303030] mb-4">
+        <h2 class="text-primary text-5xl font-medium tracking-widest text-right">Productos</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {
+            products.map(product => (
+                <Product
+                    name={product.name}
+                    image={product.image}
+                    variety={product.variety}
+                    countries={product.countries}
+                />
+            ))
+        }
+    </div>
+</section>

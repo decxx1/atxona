@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.45 37.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #009245;
+      }
+
+      .cls-2 {
+        fill: #f0f0f0;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: .94px;
+      }
+
+      .cls-4 {
+        fill: #ed1c24;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g id="Italy">
+        <circle class="cls-4" cx="18.72" cy="18.53" r="18.53"/>
+        <path class="cls-1" d="M18.72,0C8.47,0,.19,8.28,.19,18.53s8.28,18.53,18.53,18.53V0Z"/>
+        <path class="cls-2" d="M18.72,0c-2.1,0-4.2,.37-6.18,1.11V36.07c3.95,1.48,8.4,1.48,12.35,0V1.11c-1.98-.74-4.08-1.11-6.18-1.11Z"/>
+      </g>
+      <circle class="cls-3" cx="18.72" cy="18.81" r="18.26"/>
+    </g>
+  </g>
+</svg>
