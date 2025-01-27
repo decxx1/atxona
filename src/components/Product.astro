@@ -7,16 +7,16 @@ interface Props {
 }
 const { name, variety, image, countries } = Astro.props
 ---
-<article class="">
+<article class="mb-10">
     <h3 class="text-primary text-6xl mb-4 tracking-wider text-center">{name}</h3>
-    <div class="relative max-xs:h-[300px] xs:h-[400px]">
+    <div class="relative max-xs:h-[400px] xs:h-[500px] shadow-lg">
         <img 
             class="absolute w-full h-full object-cover z-10"
             src={image}
             alt={name}
         />
         <div class="absolute z-40 w-full h-28 bottom-0">
-            <div class="bg-tertiary/50 h-full text-left font-light text-white">
+            <div class="bg-tertiary/70 h-full text-left font-light text-white">
                 <div class="grid grid-cols-2 justify-between uppercase text-xl lg:text-2xl lg:tracking-wide pt-4 mx-4 lg:mx-8">
                     <div>
                         <h5 class="font-bold">Variedad</h5>
