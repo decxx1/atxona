@@ -40,7 +40,7 @@ const LogoCarousel = () => {
             return (
               <div
                 key={index}
-                className={`w-1/2 px-10 transition-opacity duration-500 ${offset === 1 ? "hidden md:block" : ""}`}
+                className={`w-1/2 md:px-10 transition-opacity duration-500 ${offset === 1 ? "hidden md:block" : ""}`}
               >
                 <img
                   src={client.src}
