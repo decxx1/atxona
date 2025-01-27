@@ -88,7 +88,8 @@
     },
     "marketing":{
         "metaData":{
-            "title": "Atxona - Comercialización"
+            "title": "Atxona - Comercialización",
+            "description": "Atxona ha fortalecido su presencia en los mercados globales, conectando con los principales centros de distribución tanto en el mercado interno y externo."
         },
         "hero": "<strong>Importamos</strong> y <strong>exportamos</strong> sabor natural al mundo.",
         "international": "Grupo Atxona ha fortalecido su presencia en los <strong class='font-bold'>mercados globales</strong>, conectando con los principales centros de distribución tanto en el <strong class='font-bold'>mercado interno</strong>, Buenos Aires, Córdoba y Mendoza, como en el <strong class='font-bold'>mercado externo</strong>, colaborando principalmente con mayoristas de fruta de Brasil, Chile y Perú entre otros.",
@@ -96,7 +97,91 @@
             "parragraph1": "Gracias a nuestra tecnología de refrigeración de última generación, aseguramos la cadena de frío en todo el proceso, manteniendo la frescura de las frutas desde el origen hasta el cliente final. ",
             "parragraph2": "Esto nos permite trabajar con supermercados y mayoristas que valoran tanto la calidad, como los formatos de presentación de nuestros productos.",
             "parragraph3": "Nuestro sistema de logística just-in-time cumple con los estándares más altos del sector frutícola y garantiza entregas en tiempo y forma."
-        }
+        },
+        "productTitle": "Productos",
+        "products": [
+            {
+                "name":"Paltas",
+                "variety": "Hass",
+                "image": "/images/marketing/products/paltas.png",
+                "countries": [
+                    "chile","pt","peru","colombia"
+                ]
+            },
+            {
+                "name":"Kiwi",
+                "variety": "HAYWARD",
+                "image": "/images/marketing/products/kiwi.png",
+                "countries": [
+                    "chile","italia","grecia"
+                ]
+            },
+            {
+                "name":"Uvas",
+                "variety": "",
+                "image": "/images/marketing/products/uvas.png",
+                "countries": [
+                    "argentina","chile","pt","peru"
+                ]
+            },
+            {
+                "name":"Cítricos",
+                "variety": "Pomelo, Naranja y limón",
+                "image": "/images/marketing/products/citricos.png",
+                "countries": [
+                    "esp","chile"
+                ]
+            },
+            {
+                "name":"Manzanas",
+                "variety": "Roja y verde",
+                "image": "/images/marketing/products/manzanas.png",
+                "countries": [
+                    "argentina","usa", "chile"
+                ]
+            },
+            {
+                "name":"Tomates",
+                "variety": "",
+                "image": "/images/marketing/products/tomates.png",
+                "countries": [
+                    "argentina", "chile"
+                ]
+            },
+            {
+                "name":"Melones",
+                "variety": "",
+                "image": "/images/marketing/products/melones.png",
+                "countries": [
+                    "argentina", "pt"
+                ]
+            },
+            {
+                "name":"Arándanos",
+                "variety": "",
+                "image": "/images/marketing/products/arandanos.png",
+                "countries": [
+                    "argentina", "chile"
+                ]
+            },
+            {
+                "name":"Nectarines",
+                "variety": "",
+                "image": "/images/marketing/products/nectarines.png",
+                "countries": [
+                    "argentina","esp", "chile"
+                ]
+            },
+            {
+                "name":"Ciruelas",
+                "variety": "",
+                "image": "/images/marketing/products/ciruelas.png",
+                "countries": [
+                    "argentina","esp", "chile"
+                ]
+            }
+        ],
+        "clientsTitle": "Nuestros Clientes"
     }
     
 }
