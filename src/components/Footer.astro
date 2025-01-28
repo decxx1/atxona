@@ -7,6 +7,16 @@ import LogoWhite from "@/assets/logos/atxona-white.svg";
 import Envelope from "@/assets/contact/envelope.svg";
 import Mapmarker from "@/assets/contact/mapmarker.svg";
 import Phone from "@/assets/contact/phone.svg";
+import { 
+    FACEBOOK,
+    INSTAGRAM,
+    ADDRESS,
+    EMAIL,
+    PHONE,
+    PHONE_FORMAT,
+    WHATSAPP,
+    WHATSAPP_FORMAT
+ } from 'astro:env/client';
 
 import { getI18N } from "@/i18n";
 
@@ -18,9 +28,15 @@ const i18n = getI18N({ currentLocale });
     <div class="container mx-auto py-24 md:py-16">
         <div class="flex max-sm:flex-col-reverse sm:justify-between mb-6 max-md:mx-6 sm:pb-0">
             <div class="flex flex-row max-sm:justify-center max-sm:mt-28 gap-0 md:gap-2 lg:gap-4">
-                <WhatsappIcon class="w-10 sm:w-12 lg:w-16 h-auto" />
-                <FacebookIcon class="w-10 sm:w-12 lg:w-16 h-auto" />
-                <InstagramIcon class="w-10 sm:w-12 lg:w-16 h-auto" />
+                <a href={'https://wa.me/' + WHATSAPP_FORMAT} target="_blank" class="hover:text-secondary hover:scale-105 transition-transform duration-200">
+                    <WhatsappIcon class="w-10 sm:w-12 lg:w-16 h-auto" />
+                </a>
+                <a href={FACEBOOK} target="_blank" class="hover:text-secondary hover:scale-105 transition-transform duration-200">
+                    <FacebookIcon class="w-10 sm:w-12 lg:w-16 h-auto" />
+                </a>
+                <a href={INSTAGRAM} target="_blank" class="hover:text-secondary hover:scale-105 transition-transform duration-200">
+                    <InstagramIcon class="w-10 sm:w-12 lg:w-16 h-auto" />
+                </a>
             </div>
             <div>
                 <LogoWhite class="max-sm:w-full sm:w-72 lg:w-96" />
@@ -29,9 +45,9 @@ const i18n = getI18N({ currentLocale });
 
         <div>
             <ul class="text-white text-xl px-6">
-                <li class="mb-4 lg:mb-2 text-center lg:text-left"><a class=""><Mapmarker class="w-6 h-auto mr-3 inline-flex" />Las Calandrias 578 - (5501) - Godoy Cruz - Mendoza - Argentina</a></li>
-                <li class="mb-4 lg:mb-2 text-center lg:text-left"><a class=""><Phone class="w-6 h-auto mr-3 inline-flex" />+54 (261) 439-4326</a></li>
-                <li class="text-center lg:text-left"><a ><Envelope class="w-6 h-auto mr-3 inline-flex" />info@fincaatxona.com.ar</a></li>
+                <li class="mb-4 lg:mb-2 text-center lg:text-left"><a class=""><Mapmarker class="w-6 h-auto mr-3 inline-flex" />{ADDRESS}</a></li>
+                <li class="mb-4 lg:mb-2 text-center lg:text-left"><a href={'tel:' + PHONE_FORMAT} target='_blank' class="hover:text-secondary"><Phone class="w-6 h-auto mr-3 inline-flex" />{PHONE}</a></li>
+                <li class="text-center lg:text-left"><a href={'mailto:' + EMAIL} target='_blank' class="hover:text-secondary"><Envelope class="w-6 h-auto mr-3 inline-flex" />{EMAIL}</a></li>
             </ul>
         </div>
         <p class="text-white text-center text-md pt-20">

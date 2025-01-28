@@ -1,0 +1,51 @@
+---
+
+import Email from "@/assets/contact/envelope.svg";
+import Map from "@/assets/contact/mapmarker.svg";
+import Phone from "@/assets/contact/phone.svg";
+
+import { 
+    PHONE,
+    PHONE_FORMAT,
+    EMAIL,
+    WHATSAPP,
+    WHATSAPP_FORMAT,
+    ADDRESS,
+    MAP_URL
+ } from "astro:env/client";
+
+ import { getI18N } from "@/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+<div class="text-center sm:grid sm:grid-cols-2 my-8 md:grid-cols-4 sm:gap-4 md:gap-12">
+    <div class="my-4 sm:my-0">
+        <div class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-tertiary">
+            <Phone class="w-8 h-8 text-white" />
+        </div>
+        <p class="mb-2 text-xl text-semiBlack font-bold">{i18n.contact.info.whatsapp}</p>
+        <a href={'https://wa.me/' + WHATSAPP_FORMAT} class="inline-flex py-2 px-4 text-sm font-medium text-center border text-semiBlack border-tertiary hover:text-white hover:bg-tertiary focus:ring-4 focus:outline-none focus:ring-gray-300">{WHATSAPP}</a>
+    </div>
+    <div class="my-4 sm:my-0">
+        <div class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-tertiary">
+            <Phone class="w-8 h-8 text-white" />
+        </div>
+        <p class="mb-2 text-xl text-semiBlack font-bold">{i18n.contact.info.phone}</p>
+        <a href={'tel:' + PHONE_FORMAT} class="inline-flex py-2 px-4 text-sm font-medium text-center border text-semiBlack border-tertiary hover:text-white hover:bg-tertiary focus:ring-4 focus:outline-none focus:ring-gray-300">{PHONE}</a>
+    </div>
+    <div class="my-4 sm:my-0">
+        <div class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-tertiary">
+            <Email class="w-8 h-8 text-white" />
+        </div>
+        <p class="mb-2 text-xl text-semiBlack font-bold">{i18n.contact.info.email}</p>
+        <a href={'mailto:' + EMAIL} class="inline-flex py-2 px-4 text-sm font-medium text-center border text-semiBlack border-tertiary hover:text-white hover:bg-tertiary focus:ring-4 focus:outline-none focus:ring-gray-300">{EMAIL}</a>
+    </div>
+    <div class="my-4 sm:my-0">
+        <div class="flex justify-center items-center mx-auto mb-4 w-16 h-16 bg-tertiary">
+            <Map class="w-8 h-8 text-white" />
+        </div>
+        <p class="mb-2 text-xl text-semiBlack font-bold">{i18n.contact.info.address}</p>
+        <a href={MAP_URL} class="inline-flex py-2 px-4 text-sm font-medium text-center border text-semiBlack border-tertiary hover:text-white hover:bg-tertiary focus:ring-4 focus:outline-none focus:ring-gray-300">{ADDRESS}</a>
+    </div>
+</div>

@@ -18,7 +18,8 @@ export default {
 				"primary":"#617669",
 				"secondary": "#e1e2bf",
 				"tertiary": "#2a6439",
-				"textLogo": "#636569"
+				"textLogo": "#636569",
+				"semiBlack": "#303030",
 			},
 			fontFamily: {
                 montserrat: ['Montserrat Variable', 'sans-serif'],

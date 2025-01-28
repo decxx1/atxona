@@ -182,6 +182,35 @@
             }
         ],
         "clientsTitle": "Nuestros Clientes"
+    },
+    "contact":{
+        "metaData":{
+            "title": "Atxona - Contacto",
+            "description": "¡Estemos conectados!, tenemos estrechas relaciones con el mercado interno y externo. Envíenos un mensaje y nos pondremos en contacto."
+        },
+        "title": "Contactate con nosotros",
+        "form":{
+            "success": "Gracias por consultar, te responderemos a la brevedad",
+            "nameTitle": "Nombre",
+            "namePlaceholder": "Tu nombre",
+            "phoneTitle": "Teléfono",
+            "phonePlaceholder": "Tu teléfono",
+            "emailTitle": "E-mail",
+            "emailPlaceholder": "Tu e-mail",
+            "messageTitle": "Mensaje",
+            "messagePlaceholder": "Tu mensaje",
+            "button": {
+                "send":"Enviar",
+                "isSending":"Enviando..."
+            }
+
+        },
+        "info": {
+            "phone": "Teléfono",
+            "email": "E-mail",
+            "whatsapp": "WhatsApp",
+            "address": "Dirección"
+        }
     }
     
 }

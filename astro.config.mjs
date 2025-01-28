@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig, envField } from 'astro/config';
 
 import react from '@astrojs/react';
 
@@ -27,5 +27,22 @@ export default defineConfig({
   experimental: {
     svg: true,
   },
-  integrations: [react(), tailwind()]
+  integrations: [react(), tailwind()],
+  env: {
+    schema: {
+      INSTAGRAM: envField.string({ context: "client", access: "public", optional: true }),
+      FACEBOOK: envField.string({ context: "client", access: "public", optional: true }),
+      WHATSAPP: envField.string({ context: "client", access: "public", optional: true }),
+      WHATSAPP_FORMAT: envField.string({ context: "client", access: "public", optional: true }),
+      PHONE: envField.string({ context: "client", access: "public", optional: true }),
+      PHONE_FORMAT: envField.string({ context: "client", access: "public", optional: true }),
+      MAP_URL: envField.string({ context: "client", access: "public", optional: true }),
+      MAP_IFRAME: envField.string({ context: "client", access: "public", optional: true }),
+      EMAIL: envField.string({ context: "client", access: "public", optional: true }),
+      ADDRESS: envField.string({ context: "client", access: "public", optional: true }),
+      SITE_KEY: envField.string({ context: "client", access: "public", optional: true }),
+      SECRET_KEY: envField.string({ context: "client", access: "public", optional: true }),
+      ENDPOINT: envField.string({ context: "client", access: "public", optional: true }),
+    }
+  }
 });

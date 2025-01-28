@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import SkeletonLang from '@/components/SkeletonLang.jsx';
 import { getI18N } from "@/i18n";
 
-export default function Header({currentLocale}){
+export default function Header({currentLocale, navLinks, langLinks, currentUrl}){
     const [ scrolled, setScrolled ] = useState(false);
     const [ isMobile, setIsMobile ] = useState(false);
     const [ showNavMobile, setShowNavMobile ] = useState(false);
@@ -62,6 +62,12 @@ export default function Header({currentLocale}){
             return 'hidden';
         }
     }
+    const classNavLink = (url) => {
+        
+        if (url === currentUrl) {
+            return 'font-bold';
+        }
+    }
     return (
         <>
         <div className={`${scrolled ? "h-[220.5px]" : ""}  transition-all duration-300`} ></div>
@@ -69,13 +75,13 @@ export default function Header({currentLocale}){
             <div className="container mx-auto flex flex-col px-6 lg:px-0">
                 {/* Fila superior: Íconos de idiomas */}
                 { LangSelector ?
-                    <LangSelector scrolled={scrolled} tooltipId="1" />
+                    <LangSelector scrolled={scrolled} langLinks={langLinks} tooltipId="1" />
                     : <SkeletonLang scrolled={scrolled} />
                 }
                 {/* Fila principal: Logo y Navegación */}
                 <div className={`flex items-center justify-between`}>
                     {/* Logo */}
-                    <a href="/">
+                    <a href={navLinks.index}>
                         <img src="/images/logos/atxona.svg" alt="Logo Atxona" className={`${scrolled ? "lg:w-56" : "xl:w-72" } w-56 md:w-64  transition-all duration-300`} />
                     </a>
                     {
@@ -89,18 +95,18 @@ export default function Header({currentLocale}){
                                 <>
                                     <div className="flex justify-center items-center gap-4 mb-2">
                                         { LangSelector ?
-                                            <LangSelector scrolled={scrolled} tooltipId="2" />
+                                            <LangSelector scrolled={scrolled} langLinks={langLinks} tooltipId="2" />
                                             : <SkeletonLang scrolled={scrolled} />
                                         }
                                     </div>
                                 </>
                             )
                         }
-                        <a href="/about" className="hover:font-bold">{i18n.navBar.about}</a>
-                        <a href="/production" className="hover:font-bold">{i18n.navBar.production}</a>
-                        <a href="/services" className="hover:font-bold">{i18n.navBar.services}</a>
-                        <a href="/marketing" className="hover:font-bold">{i18n.navBar.marketing}</a>
-                        <a href="/contact" className="hover:font-bold">{i18n.navBar.contact}</a>
+                        <a href={navLinks.about} className={`${classNavLink(navLinks.about)} hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.about}</a>
+                        <a href={navLinks.production} className={`${classNavLink(navLinks.production)} hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.production}</a>
+                        <a href={navLinks.services} className={`${classNavLink(navLinks.services)} hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.services}</a>
+                        <a href={navLinks.marketing} className={`${classNavLink(navLinks.marketing)} hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.marketing}</a>
+                        <a href={navLinks.contact} className={`${classNavLink(navLinks.contact)} hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.contact}</a>
                     </nav>
                 </div>
             </div>

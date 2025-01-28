@@ -1,0 +1,23 @@
+---
+import FormContact from "@/components/FormContact.jsx";
+import ContactInfo from "@/components/ContactInfo.astro";
+import { SITE_KEY } from "astro:env/client";
+import { getI18N } from "@/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+<section class="bg-white">
+    <div class="bg-[url('/images/contact/racimo.png')] bg-no-repeat bg-cover bg-center bg-black/70 bg-blend-multiply">
+        <div class="px-4 lg:pt-24 pt-8 pb-72 lg:pb-80 mx-auto text-center lg:px-6 ">
+            <h1 class="mb-4 text-5xl tracking-wider font-bold text-white">{i18n.contact.title}</h1>
+        </div> 
+    </div>
+    <div class="py-16 px-4 mx-auto -mt-96 max-w-screen-xl sm:py-20 lg:px-6 ">
+        <FormContact i18n={i18n.contact} client:load />
+        
+        <ContactInfo />
+    </div>
+</section>
+<!-- recaptcha v3 -->
+<script async src={'https://www.google.com/recaptcha/api.js?render=' + SITE_KEY}></script>

@@ -4,6 +4,15 @@ import '@fontsource-variable/montserrat';
 import Footer from '@/components/Footer.astro';
 import WhatsApp from '@/components/WhatsApp.astro';
 import Header from '@/components/Header.jsx';
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import {
+  getLangFromUrl,
+  useTranslatedPath,
+} from "@/i18n/utils.ts";
+
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
+
 
 import type { Preload } from "@/types/Preload"
 
@@ -22,7 +31,21 @@ const {
 	metaImg,
 	preLoad
 } = Astro.props;
-const { currentLocale } = Astro;
+const { currentLocale, url } = Astro;
+const navLinks = { 
+	index: getRelativeLocaleUrl(currentLocale ?? "", ""),
+	about: getRelativeLocaleUrl(currentLocale ?? "", "about"),
+	production: getRelativeLocaleUrl(currentLocale ?? "", "production"),
+	services: getRelativeLocaleUrl(currentLocale ?? "", "services"),
+	marketing: getRelativeLocaleUrl(currentLocale ?? "", "marketing"),
+	contact: getRelativeLocaleUrl(currentLocale ?? "", "contact") 
+};
+const langLinks = {
+	es: translatePath("/","es"),
+	en: translatePath("/","en"),
+	pt: translatePath("/","pt")
+};
+const currentUrl = url.pathname;
 ---
 <!doctype html>
 <html lang="es">
@@ -65,7 +88,13 @@ const { currentLocale } = Astro;
 		}
 	</head>
 	<body class="font-montserrat bg-primary scrollbar scrollbar-w-3 scrollbar-thumb-rounded-[0.25rem] scrollbar-track-gray-200 scrollbar-thumb-gray-400">
-		<Header client:load currentLocale={currentLocale} />
+		<Header
+			currentLocale={currentLocale}
+			navLinks={navLinks}
+			langLinks={langLinks}
+			currentUrl={currentUrl}
+			client:load
+		/>
 		<main>
 			<slot />
 		</main>

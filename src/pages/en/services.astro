@@ -1,6 +1,6 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import MarketingPage from '@/components/pages/Marketing.astro';
+import ServicesPage from '@/components/pages/Services.astro';
 
 const preloadImages = [
 	{
@@ -16,11 +16,11 @@ const i18n = getI18N({ currentLocale });
 ---
 
 <Layout
-	title={i18n.marketing.metaData.title}
+	title={i18n.services.metaData.title}
 	canonical="https://atxona.com.ar"
-	metaDescription={i18n.marketing.metaData.description}
+	metaDescription={i18n.services.metaData.description}
 	metaImg="https://atxona.com.ar/images/index/hero.jpg"
 	preLoad={preloadImages}
 >
-	<MarketingPage />
+	<ServicesPage />
 </Layout>
