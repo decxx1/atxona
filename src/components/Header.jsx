@@ -2,14 +2,16 @@ import { useState, useEffect } from 'react';
 import SkeletonLang from '@/components/SkeletonLang.jsx';
 import { getI18N } from "@/i18n";
 
-export default function Header({currentLocale, navLinks, langLinks, currentUrl}){
+export default function Header({currentLocale, navLinks, langLinks}){
     const [ scrolled, setScrolled ] = useState(false);
     const [ isMobile, setIsMobile ] = useState(false);
     const [ showNavMobile, setShowNavMobile ] = useState(false);
     const [LangSelector, setLangSelector] = useState(null);
+    const [currentUrl, setCurrentUrl] = useState('');
 
     const i18n = getI18N({ currentLocale });
     useEffect(() => {
+        setCurrentUrl(window.location.pathname);
         //importar LangSelector en el cliente
         const cargarComponente = async () => {
             const modulo = await import('@/components/LangSelector');
@@ -63,7 +65,6 @@ export default function Header({currentLocale, navLinks, langLinks, currentUrl})
         }
     }
     const classNavLink = (url) => {
-        
         if (url === currentUrl) {
             return 'font-bold';
         }
