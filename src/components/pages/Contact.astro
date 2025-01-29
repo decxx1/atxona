@@ -7,10 +7,10 @@ import { getI18N } from "@/i18n";
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
 ---
-<section class="bg-white mt-[188.5px]">
+<section class="bg-white mt-[140.8px] sm:mt-[144px] md:mt-[158.3px] lg:mt-[178.3px] xl:mt-[188.5px]">
     <div class="bg-[url('/images/about/cosecha-racimo.webp')] bg-no-repeat bg-cover bg-center bg-black/70 bg-blend-multiply">
         <div class="px-4 lg:pt-24 pt-8 pb-72 lg:pb-80 mx-auto text-center lg:px-6 ">
-            <h1 class="animate-flip-up mb-4 text-5xl tracking-wider font-bold text-white">{i18n.contact.title}</h1>
+            <h1 class="animate-flip-up mb-10 sm:mb-6 lg:mb-4 text-5xl tracking-wider font-bold text-white">{i18n.contact.title}</h1>
         </div> 
     </div>
     <div class="py-16 px-4 mx-auto -mt-96 max-w-screen-xl sm:py-20 lg:px-6 ">
