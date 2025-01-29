@@ -103,7 +103,7 @@
             {
                 "name":"Paltas",
                 "variety": "Hass",
-                "image": "/images/marketing/products/paltas.png",
+                "image": "/images/marketing/products/paltas.webp",
                 "countries": [
                     "chile","pt","peru","colombia"
                 ]
@@ -111,7 +111,7 @@
             {
                 "name":"Kiwi",
                 "variety": "HAYWARD",
-                "image": "/images/marketing/products/kiwi.png",
+                "image": "/images/marketing/products/kiwi.webp",
                 "countries": [
                     "chile","italia","grecia"
                 ]
@@ -119,7 +119,7 @@
             {
                 "name":"Uvas",
                 "variety": "",
-                "image": "/images/marketing/products/uvas.png",
+                "image": "/images/marketing/products/uvas.webp",
                 "countries": [
                     "argentina","chile","pt","peru"
                 ]
@@ -127,7 +127,7 @@
             {
                 "name":"Cítricos",
                 "variety": "Pomelo, Naranja y limón",
-                "image": "/images/marketing/products/citricos.png",
+                "image": "/images/marketing/products/citricos.webp",
                 "countries": [
                     "esp","chile"
                 ]
@@ -135,7 +135,7 @@
             {
                 "name":"Manzanas",
                 "variety": "Roja y verde",
-                "image": "/images/marketing/products/manzanas.png",
+                "image": "/images/marketing/products/manzanas.webp",
                 "countries": [
                     "argentina","usa", "chile"
                 ]
@@ -143,7 +143,7 @@
             {
                 "name":"Tomates",
                 "variety": "",
-                "image": "/images/marketing/products/tomates.png",
+                "image": "/images/marketing/products/tomates.webp",
                 "countries": [
                     "argentina", "chile"
                 ]
@@ -151,7 +151,7 @@
             {
                 "name":"Melones",
                 "variety": "",
-                "image": "/images/marketing/products/melones.png",
+                "image": "/images/marketing/products/melones.webp",
                 "countries": [
                     "argentina", "pt"
                 ]
@@ -159,7 +159,7 @@
             {
                 "name":"Arándanos",
                 "variety": "",
-                "image": "/images/marketing/products/arandanos.png",
+                "image": "/images/marketing/products/arandanos.webp",
                 "countries": [
                     "argentina", "chile"
                 ]
@@ -167,7 +167,7 @@
             {
                 "name":"Nectarines",
                 "variety": "",
-                "image": "/images/marketing/products/nectarines.png",
+                "image": "/images/marketing/products/nectarines.webp",
                 "countries": [
                     "argentina","esp", "chile"
                 ]
@@ -175,7 +175,7 @@
             {
                 "name":"Ciruelas",
                 "variety": "",
-                "image": "/images/marketing/products/ciruelas.png",
+                "image": "/images/marketing/products/ciruelas.webp",
                 "countries": [
                     "argentina","esp", "chile"
                 ]
