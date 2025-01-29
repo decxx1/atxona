@@ -19,7 +19,7 @@ export default function Header({currentLocale, navLinks, langLinks, currentUrl})
         const mediaQuery = window.matchMedia("(min-width: 1024px)");
 
         const handleScroll = () => {
-            setScrolled(window.scrollY > 220);
+            setScrolled(window.scrollY > 188.5);
         };
 
         const handleMediaChange = (e) => {
@@ -70,8 +70,8 @@ export default function Header({currentLocale, navLinks, langLinks, currentUrl})
     }
     return (
         <>
-        <div className={`${scrolled ? "h-[220.5px]" : ""}  transition-all duration-300`} ></div>
-        <header className={`${scrolled ? "fixed top-0 z-50 lg:py-4 max-lg:pt-6" : "lg:py-12"}  w-full bg-white pb-6 transition-all duration-300`}>
+        <div className={`${scrolled ? "h-[188.5px]" : ""}  transition-all duration-300`} ></div>
+        <header className={`${scrolled ? "fixed top-0 z-50 lg:py-4 max-lg:pt-6" : "lg:py-8"}  w-full bg-white pb-6 transition-all duration-300`}>
             <div className="container mx-auto flex flex-col px-6 lg:px-0">
                 {/* Fila superior: Íconos de idiomas */}
                 { LangSelector ?

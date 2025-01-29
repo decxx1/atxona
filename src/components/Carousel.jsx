@@ -20,7 +20,7 @@ export default function ImageCarousel ({ title, images }) {
   }
 
   return (
-    <div className="relative w-full" style={{ height: "calc(100vh - 220px)" }}>
+    <div className="relative w-full" style={{ height: "calc(100vh - 188.5px)" }}>
       {images.map((src, index) => (
         <img
           key={src}
