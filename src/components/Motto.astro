@@ -8,7 +8,7 @@ const { title, color } = Astro.props;
 ---
 <section class=`${color === "tertiary" ? "bg-tertiary text-secondary" : "bg-secondary text-semiBlack" } py-24 max-sm:px-4`>
     <div class="container mx-auto">
-        <h2 class="text-xl sm:text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl font-light text-center leading-8 md:leading-10 xl:leading-[3.2rem]" set:html={title}>
+        <h2 data-aos="fade" data-aos-duration="1000" data-aos-delay="400" class="text-xl sm:text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl font-light text-center leading-8 md:leading-10 xl:leading-[3.2rem]" set:html={title}>
         </h2>
     </div>
 </section>

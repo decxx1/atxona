@@ -73,7 +73,13 @@ export default function FormContact({i18n}) {
     }
     return (
         <>
-            <form onSubmit={handleSubmit} method="post" id="contactForm" className="grid grid-cols-1 gap-8 p-6 mx-auto mb-16 max-w-screen-md bg-white border border-primary shadow-sm lg:mb-28 sm:grid-cols-2">
+            <form
+                data-aos="fade" data-aos-duration="1000" data-aos-delay="100"
+                onSubmit={handleSubmit}
+                method="post"
+                id="contactForm"
+                className="grid grid-cols-1 gap-8 p-6 mx-auto mb-16 max-w-screen-md bg-white border border-primary shadow-sm lg:mb-28 sm:grid-cols-2"
+            >
                 <Toaster richColors position="top-right" />
                 <div className="sm:col-span-2">
                     <label htmlFor="nombre" className="block mb-2 text-sm font-medium text-gray-900">{i18n.form.nameTitle} *</label>

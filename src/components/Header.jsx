@@ -82,7 +82,7 @@ export default function Header({currentLocale, navLinks, langLinks, currentUrl})
                 <div className={`flex items-center justify-between`}>
                     {/* Logo */}
                     <a href={navLinks.index}>
-                        <img src="/images/logos/atxona.svg" alt="Logo Atxona" className={`${scrolled ? "lg:w-56" : "xl:w-72" } w-56 md:w-64  transition-all duration-300`} />
+                        <img src="/images/logos/atxona.svg" alt="Logo Atxona" className={`${scrolled ? "lg:w-56" : "xl:w-72" } animate-fade-right w-56 md:w-64  transition-all duration-300`} />
                     </a>
                     {
                         isMobile &&
@@ -93,7 +93,7 @@ export default function Header({currentLocale, navLinks, langLinks, currentUrl})
                         {
                             isMobile && scrolled && (
                                 <>
-                                    <div className="flex justify-center items-center gap-4 mb-2">
+                                    <div className="animate-fade flex justify-center items-center gap-4 mb-2">
                                         { LangSelector ?
                                             <LangSelector scrolled={scrolled} langLinks={langLinks} tooltipId="2" />
                                             : <SkeletonLang scrolled={scrolled} />
@@ -102,11 +102,11 @@ export default function Header({currentLocale, navLinks, langLinks, currentUrl})
                                 </>
                             )
                         }
-                        <a href={navLinks.about} className={`${classNavLink(navLinks.about)} hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.about}</a>
-                        <a href={navLinks.production} className={`${classNavLink(navLinks.production)} hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.production}</a>
-                        <a href={navLinks.services} className={`${classNavLink(navLinks.services)} hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.services}</a>
-                        <a href={navLinks.marketing} className={`${classNavLink(navLinks.marketing)} hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.marketing}</a>
-                        <a href={navLinks.contact} className={`${classNavLink(navLinks.contact)} hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.contact}</a>
+                        <a href={navLinks.about} className={`${classNavLink(navLinks.about)} animate-fade hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.about}</a>
+                        <a href={navLinks.production} className={`${classNavLink(navLinks.production)} animate-fade hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.production}</a>
+                        <a href={navLinks.services} className={`${classNavLink(navLinks.services)} animate-fade hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.services}</a>
+                        <a href={navLinks.marketing} className={`${classNavLink(navLinks.marketing)} animate-fade hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.marketing}</a>
+                        <a href={navLinks.contact} className={`${classNavLink(navLinks.contact)} animate-fade hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.contact}</a>
                     </nav>
                 </div>
             </div>

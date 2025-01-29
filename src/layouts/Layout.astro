@@ -4,6 +4,7 @@ import '@fontsource-variable/montserrat';
 import Footer from '@/components/Footer.astro';
 import WhatsApp from '@/components/WhatsApp.astro';
 import Header from '@/components/Header.jsx';
+import 'aos/dist/aos.css';
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import {
   getLangFromUrl,
@@ -97,9 +98,15 @@ const currentUrl = url.pathname;
 		</main>
 		<WhatsApp />
 		<Footer />
+		
 	</body>
 </html>
-
+<script>
+	import AOS from "aos"; 
+	AOS.init({
+		disable: 'mobile'
+	})
+</script>
 
 
 <style is:global>

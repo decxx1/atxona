@@ -24,7 +24,7 @@ export default function ImageCarousel ({ title, images }) {
       {images.map((src, index) => (
         <img
           key={src}
-          src={src || "/placeholder.svg"}
+          src={src}
           alt={`Slide ${index + 1}`}
           className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-300 ${
             index === currentIndex ? "opacity-100" : "opacity-0"
@@ -37,7 +37,7 @@ export default function ImageCarousel ({ title, images }) {
       </div>
         {/* <!-- Texto --> */}
       <div className="absolute z-40 max-md:left-1/2 max-md:-translate-x-1/2 [@media(max-height:700px)]:bottom-16 bottom-28 md:right-28 p-4 max-md:w-full">
-        <h1 className="text-5xl sm:text-6xl text-center md:text-7xl 2xl:text-8xl text-white md:text-right " dangerouslySetInnerHTML={{ __html: title }}>
+        <h1 className="text-5xl sm:text-6xl text-center md:text-7xl 2xl:text-8xl text-white md:text-right animate-flip-up" dangerouslySetInnerHTML={{ __html: title }}>
         </h1>
       </div>
 
