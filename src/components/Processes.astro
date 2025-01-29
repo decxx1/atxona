@@ -48,11 +48,19 @@ const i18n = getI18N({ currentLocale });
     });
 	
 	lightbox.init();
-	const galleryButton: HTMLButtonElement = document.querySelector("#btn-open-pswp");
-	
-    galleryButton.onclick = () => {
-		lightbox.loadAndOpen(0); 
-	};
+	const galleryButton = document.querySelector("#btn-open-pswp") as HTMLElement;
+
+	if (galleryButton) {
+		galleryButton.onclick = () => {
+			try {
+				lightbox.loadAndOpen(0);
+			} catch (error) {
+				console.error("Error opening lightbox:", error);
+			}
+		};
+	} else {
+		console.error("Gallery button not found.");
+	}
 </script>
 <section class="relative h-[600px] xs:h-[700px] sm:h-[800px]">
 	<!-- Gradiente -->
