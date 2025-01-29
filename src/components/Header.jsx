@@ -70,8 +70,7 @@ export default function Header({currentLocale, navLinks, langLinks, currentUrl})
     }
     return (
         <>
-        <div className={`${scrolled ? "h-[188.5px]" : ""}  transition-all duration-300`} ></div>
-        <header className={`${scrolled ? "fixed top-0 z-50 lg:py-4 max-lg:pt-6" : "lg:py-8"}  w-full bg-white pb-6 transition-all duration-300`}>
+        <header className={`${scrolled ? "lg:py-4 max-lg:pt-6" : "lg:py-8"}  fixed top-0 z-50 w-full bg-white pb-6 transition-all duration-300 ease-in-out`}>
             <div className="container mx-auto flex flex-col px-6 lg:px-0">
                 {/* Fila superior: Íconos de idiomas */}
                 { LangSelector ?
@@ -82,7 +81,7 @@ export default function Header({currentLocale, navLinks, langLinks, currentUrl})
                 <div className={`flex items-center justify-between`}>
                     {/* Logo */}
                     <a href={navLinks.index}>
-                        <img src="/images/logos/atxona.svg" alt="Logo Atxona" className={`${scrolled ? "lg:w-56" : "xl:w-72" } animate-fade-right w-56 md:w-64  transition-all duration-300`} />
+                        <img src="/images/logos/atxona.svg" alt="Logo Atxona" className={`${scrolled ? "lg:w-56" : "xl:w-72" } hover:drop-shadow-lg w-56 md:w-64 transition-all duration-300`} />
                     </a>
                     {
                         isMobile &&
