@@ -1,9 +1,10 @@
 ---
-import IndexPage from '@/components/pages/Index.astro';
 import Layout from '@/layouts/Layout.astro';
+import IndexPage from '@/components/pages/Index.astro';
+
 const preloadImages = [
 	{
-		href:"/images/index/hero.webp",
+		href:"/images/index/finca.webp",
 		as: "image",
 		type: "image/webp",
 	}
@@ -16,10 +17,10 @@ const i18n = getI18N({ currentLocale });
 
 <Layout
 	title={i18n.index.metaData.title}
-	canonical="https://atxona.com.ar"
+	canonical="https://fincaatxona.com.ar"
 	metaDescription={i18n.index.metaData.description}
-	metaImg="https://atxona.com.ar/images/index/hero.webp"
+	metaImg="https://fincaatxona.com.ar/images/index/finca.webp"
 	preLoad={preloadImages}
-	>
+>
 	<IndexPage />
 </Layout>

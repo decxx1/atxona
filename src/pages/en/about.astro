@@ -4,9 +4,9 @@ import AboutPage from '@/components/pages/About.astro';
 
 const preloadImages = [
 	{
-		href:"/images/index/finca.jpg",
+		href:"/images/about/cosecha-racimo.webp",
 		as: "image",
-		type: "image/jpg",
+		type: "image/webp",
 	}
 ];
 import { getI18N } from "@/i18n";
@@ -16,9 +16,9 @@ const i18n = getI18N({ currentLocale });
 ---
 <Layout
 	title={i18n.about.metaData.title}
-	canonical="https://atxona.com.ar/about"
+	canonical="https://fincaatxona.com.ar/about"
 	metaDescription={i18n.about.metaData.description}
-	metaImg="https://atxona.com.ar/images/index/hero.jpg"
+	metaImg="https://fincaatxona.com.ar/images/about/cosecha-racimo.webp"
 	preLoad={preloadImages}
 >
 	<AboutPage />

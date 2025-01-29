@@ -4,9 +4,9 @@ import ProductionPage from '@/components/pages/Production.astro';
 
 const preloadImages = [
 	{
-		href:"/images/index/finca.jpg",
+		href:"/images/production/tractor-con-uvas.webp",
 		as: "image",
-		type: "image/jpg",
+		type: "image/webp",
 	}
 ];
 import { getI18N } from "@/i18n";
@@ -17,9 +17,9 @@ const i18n = getI18N({ currentLocale });
 
 <Layout
 	title={i18n.production.metaData.title}
-	canonical="https://atxona.com.ar"
+	canonical="https://fincaatxona.com.ar"
 	metaDescription={i18n.production.metaData.description}
-	metaImg="https://atxona.com.ar/images/index/hero.jpg"
+	metaImg="https://fincaatxona.com.ar/images/production/tractor-con-uvas.webp"
 	preLoad={preloadImages}
 >
 	<ProductionPage />

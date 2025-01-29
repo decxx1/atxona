@@ -78,9 +78,6 @@ const currentUrl = url.pathname;
 		<meta name="twitter:description" content={metaDescription} />
 		<meta name="twitter:url" content={canonical} />
 		<meta name="twitter:image" content={metaImg} />
-		<!-- preconnect para Google Recaptcha -->
-		<link rel="preconnect" href="https://www.google.com">
-		<link rel="preconnect" href="https://www.gstatic.com" crossorigin>
 		{
 			preLoad?.map(({ href, as, type }) => (
 				<link rel="preload" {as} {href} {type} />
