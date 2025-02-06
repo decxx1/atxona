@@ -26,8 +26,8 @@ const i18n = getI18N({ currentLocale });
             </p>
         </div>
         <div>
-            <h3 class="mb-6 font-bold uppercase">
-                {i18n.marketing.transport.title3}
+            <h3 class="mb-6 font-bold uppercase" set:html={i18n.marketing.transport.title3}>
+                
             </h3>
             <p>
                 {i18n.marketing.transport.parragraph3}
