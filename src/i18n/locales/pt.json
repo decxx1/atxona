@@ -21,8 +21,8 @@
         "features": "En Atxona, apostamos por la <strong class='font-bold'>calidad</strong> mediante inversiones en nuevas variedades y tecnología de avanzada, garantizando la <strong class='font-bold'>frescura y el sabor natural de nuestros productos.</strong>",
         "motto": "<strong class='font-bold'>Nuestro lema, \"Calidad y sabor natural al mundo\"</strong>, es el reflejo de cada etapa de nuestros procesos, siempre con el compromiso de superar las expectativas de nuestros clientes.",
         "sustainability": {
-            "parragraph1": "Estamos comprometidos con la <strong class='font-bold'>sostenibilidad</strong>, nuestra misión es <strong class='font-bold'>proteger los recursos</strong> naturales y sociales, <strong class='font-bold'>respetando el medio ambiente</strong> y generando empleo, promoviendo así un <strong class='font-bold'>impacto positivo y responsable</strong> en nuestro entorno.",
-            "parragraph2": "Nuestra visión es consolidarnos como un <strong class='font-bold'>grupo empresario líder en la producción, empaque y comercialización de frutas frescas</strong>, especialmente uvas de mesa con y sin semilla, destacando por nuestra inocuidade innovación <strong class='font-bold'>a nivel nacional e internacional</strong>."
+            "parragraph1": "Estamos comprometidos con la <strong class='font-bold'>sostenibilidad</strong>, nuestra misión es <strong class='font-bold'>proteger los recursos</strong> naturales y sociales, <strong class='font-bold'>respetando el medio ambiente</strong> y generando empleo, promoviendo así un <strong class='font-bold'>impacto positivo y responsable</strong> en nuestro entorno, <strong>devolviendo a la tierra lo que la tierra nos da.</strong>",
+            "parragraph2": "Nuestra visión es consolidarnos como un <strong class='font-bold'>grupo empresario líder en la producción, empaque y comercialización de frutas frescas</strong>, especialmente uvas de mesa sin semilla, destacando por nuestra inocuidad e innovación <strong class='font-bold'>a nivel nacional e internacional</strong>."
         }
     },
     "about":{
@@ -32,7 +32,7 @@
         },
         "hero": "Nuestra <strong class='font-bold'><br/>Historia</strong>",
         "history": {
-            "parragraph1": "<strong>La historia del Grupo Atxona</strong> se remonta al año 1.910 cuando Don Severiano Salvarredi Esnaola y sus hermanos partieron desde la provincia de Guipúzcoa, del norte de la Península Ibérica hacia Argentina.",
+            "parragraph1": "<strong>La historia del Grupo Atxona</strong> se remonta al año 1.910 cuando Don Severiano Salvarredi Esnaola y sus hermanos partieron desde la provincia de Guipúzcoa, del País Vasco, hacia Argentina.",
             "parragraph2": "Llegaron con pocas pertenencias, pero llenos de ilusiones, esperanzas y con el sueño, como el de muchos inmigrantes: de “hacer la América”.",
             "parragraph3": "En 1913, Don Severiano junto a su esposa e hijos (entre ellos, Guillermo, nuestro Atxona = que en euskera significa “ABUELO”) se establecieron en Alto Verde, San Martín, Mendoza “Tierra del Sol y del Buen Vino”."
         },
@@ -60,7 +60,7 @@
             "parragraph1": "Producción de uvas de mesa con y sin semilla para consumo en fresco",
             "parragraph2": "Producción de vides para vinificar.",
             "button": "(ver fichas técnicas)",
-            "footer": "Todos nuestros procesos productivos en la finca se han ido adaptando hacia las nuevas tendencias globales de estándares de calidad, complementados con los procesos de empaque de almacenamiento y de traslado. Aplicando acciones concretas en la ejecución de la trazabilidad protegiendo la calidad y la naturalidad de nuestros productos y logrando la sostenibilidad en el tiempo."
+            "footer": "Todos nuestros procesos productivos en la finca se han ido adaptando hacia las nuevas tendencias globales de estándares de calidad, complementados con los procesos de empaque de almacenamiento y de traslado. Aplicando acciones concretas en la ejecución de la trazabilidad protegiendo la calidad y la naturalidad de nuestros productos, logrando la sostenibilidad en el tiempo. Cultivamos calidad, cosechamos confianza."
         }
     },
     "services": {
@@ -72,7 +72,7 @@
         "transfer": "En Grupo Atxona contamos con una <strong class='font-bold'>Planta de Procesos</strong>, ubicada <strong class='font-bold'>en las proximidades</strong> de nuestros cultivos, <strong class='font-bold'>optimizando tiempos</strong> de traslado, <strong class='font-bold'>protegiendo así el producto</strong> en todos las etapas de manipulación.",
         "packing": {
             "title": "Empaque",
-            "parragraph1": "Brindamos un servicio de calidad en el embalaje de uvas frescas provenientes de nuestra Finca Atxona y al mismo tiempo ofrecemos servicio de empaque para frutas frescas de terceros.",
+            "parragraph1": "Brindamos un servicio de calidad en el embalaje de uvas frescas provenientes de nuestra Finca Atxona.",
             "parragraph2": "Adaptamos nuestros  servicios de empaque en función de los requerimientos de los destinos comerciales (nacionales e internacionales) de la fruta.",
             "parragraph3": "Trabajamos bajo un Sistema de gestión de calidad y seguridad alimentaria, respetando estándares mundiales, lo que nos permite validar nuestros procesos, asegurando la obtención de un producto de excelencia."
         },
@@ -81,9 +81,13 @@
             "parragraph1": "Poseemos un sistema frigorífico con más de 600 m2 cubiertos, distribuidos estratégicamente:",
             "parragraph2": {
                 "item1": "2 cámaras de frío convencional, para almacenar más de 800 pallets.",
-                "item2": "1 Túnel de pre frío para almacenar más de 16 pallets."
+                "item2": "1 Túnel de pre frío tipo californiano para enfriar la fruta en corto plazo."
             },
             "parragraph3": "Nuestras instalaciones nos permiten prestar un efectivo servicio de almacenamiento y enfriado, tanto para fruta a granel como de producto embalado y listo para despacho y comercialización (clamshells / cajas / pallets)."
+        },
+        "bubble":{
+            "title": "Burbuja",
+            "parragraph": "<strong class='font-medium'>Establecimiento habilitado fitosanitariamente por el SENASA</strong> para proceso de fruta originaria del Área Regulada, preservando el estatus de Área Libre de la Región Patagónica de Argentina. Del mismo modo, para ser exportada a países con restricciones para Mosca de los Frutos."
         }
     },
     "marketing":{
@@ -94,9 +98,12 @@
         "hero": "<strong>Importamos</strong> y <strong>exportamos</strong> sabor natural al mundo.",
         "international": "Grupo Atxona ha fortalecido su presencia en los <strong class='font-bold'>mercados globales</strong>, conectando con los principales centros de distribución tanto en el <strong class='font-bold'>mercado interno</strong>, Buenos Aires, Córdoba y Mendoza, como en el <strong class='font-bold'>mercado externo</strong>, colaborando principalmente con mayoristas de fruta de Brasil, Chile y Perú entre otros.",
         "transport": {
-            "parragraph1": "Gracias a nuestra tecnología de refrigeración de última generación, aseguramos la cadena de frío en todo el proceso, manteniendo la frescura de las frutas desde el origen hasta el cliente final. ",
-            "parragraph2": "Esto nos permite trabajar con supermercados y mayoristas que valoran tanto la calidad, como los formatos de presentación de nuestros productos.",
-            "parragraph3": "Nuestro sistema de logística just-in-time cumple con los estándares más altos del sector frutícola y garantiza entregas en tiempo y forma."
+            "title1": "Tecnología de refrigeración de última generación",
+            "parragraph1": "Aseguramos la cadena de frío en todo el proceso, manteniendo la frescura de las frutas desde el origen hasta el cliente final. ",
+            "title2": "Trabajamos con supermercados y mayoristas",
+            "parragraph2": "Nuestros clientes valoran tanto la calidad, como los formatos de presentación de nuestros productos.",
+            "title3": "Sistema de logística just-in-time",
+            "parragraph3": "Cumplimos con los estándares más altos del sector frutícola y garantizamos entregas en tiempo y forma."
         },
         "productTitle": "Productos",
         "products": [
@@ -105,7 +112,7 @@
                 "variety": "Hass",
                 "image": "/images/marketing/products/paltas.webp",
                 "countries": [
-                    "chile","pt","peru","colombia"
+                    "argentina","chile","pt","peru","colombia"
                 ]
             },
             {
@@ -113,7 +120,7 @@
                 "variety": "HAYWARD",
                 "image": "/images/marketing/products/kiwi.webp",
                 "countries": [
-                    "chile","italia","grecia"
+                    "argentina","chile","italia","grecia"
                 ]
             },
             {

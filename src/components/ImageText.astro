@@ -3,10 +3,10 @@ import type { ImagesComponent } from "@/types/ImagesComponent"
 interface Props {
     image: ImagesComponent;
     rtl?: boolean;
-
+    logo?: boolean;
 }
 
-const { image, rtl } = Astro.props;
+const { image, rtl, logo } = Astro.props;
 ---
 <section class="bg-white">
     <div 
@@ -17,7 +17,7 @@ const { image, rtl } = Astro.props;
                 src={image.src}
                 alt={image.alt}
                 loading="lazy"
-                class="object-cover w-full h-full"
+                class={`w-full h-full ${ logo ? "object-contain px-6" : "object-cover"}`}
                 data-aos="fade" data-aos-duration="1000" data-aos-delay="200"
             />
         </div>

@@ -8,18 +8,18 @@ const i18n = getI18N({ currentLocale });
     <div class="container mx-auto">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 text-[#1e1e1e] leading-6 lg:leading-8 text-lg xs:text-xl lg:text-2xl text-left font-medium px-4 md:px-6 lg:px-0">
             <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" class="flex items-center justify-center">
-                <img src="/images/about/tradition.webp" class="rounded" alt="tradition" loading="lazy" />
+                <img src="/images/about/abuelo-atxona.webp" class="rounded" alt="tradition" loading="lazy" />
             </div>
-            <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-                <p class="lg:mb-6" set:html={i18n.about.tradition.parragraph1}>
-                </p>
-                <p class="xl:block hidden">
-                    {i18n.about.tradition.parragraph2}
-                </p>
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" class="flex items-center justify-center">
+                <div  >
+                    <p class="mb-6" set:html={i18n.about.tradition.parragraph1}>
+                    </p>
+                    <p>
+                        {i18n.about.tradition.parragraph2}
+                    </p>
+                </div>
             </div>
-            <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" class="block xl:hidden col-span-1 lg:col-span-2">
-                {i18n.about.tradition.parragraph2}
-            </p>
+            
         </div>
     </div>
 </section>

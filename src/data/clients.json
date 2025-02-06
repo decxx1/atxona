@@ -29,6 +29,12 @@
             "alt": "beccar",
             "width": "201",
             "height": "154"
+        },
+        {
+            "src": "/images/clients/mercado-central-bs-as.svg",
+            "alt": "Corporación del mercado central de Bs. As.",
+            "width": "164",
+            "height": "48"
         }
     ]
 }

@@ -1,0 +1,37 @@
+---
+import { getI18N } from "@/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+<section class="container mx-auto">
+    <div 
+        data-aos="fade" data-aos-duration="1000" data-aos-delay="200"
+        class="grid grid-cols-1 sm:grid-cols-3 gap-12 font-light text-left text-lg lg:text-2xl text-semiBlack px-4 md:px-6 lg:px-10 py-10 md:py-16 lg:py-8 xl:py-20"
+    >
+        <div>
+            <h3 class="mb-6 font-bold uppercase">
+                {i18n.marketing.transport.title1}
+            </h3>
+            <p>
+                {i18n.marketing.transport.parragraph1}
+            </p>
+        </div>
+        <div>
+            <h3 class="mb-6 font-bold uppercase">
+                {i18n.marketing.transport.title2}
+            </h3>
+            <p>
+                {i18n.marketing.transport.parragraph2}
+            </p>
+        </div>
+        <div>
+            <h3 class="mb-6 font-bold uppercase">
+                {i18n.marketing.transport.title3}
+            </h3>
+            <p>
+                {i18n.marketing.transport.parragraph3}
+            </p>
+        </div>
+    </div>
+</section>

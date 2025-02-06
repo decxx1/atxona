@@ -1,0 +1,19 @@
+---
+interface Props {
+    color?: string;
+}
+
+const { color } = Astro.props;
+---
+<section class=`${color === "tertiary" ? "bg-tertiary text-secondary" : "bg-white text-semiBlack" } relative max-xs:h-[500px] xs:h-[400px] py-16`>
+    <div class="container mx-auto text-lg lg:text-2xl xl:text-3xl font-light text-left px-4 ">
+        <!-- <img
+            src="/images/logos/senasa.svg"
+            alt="logo senasa"
+            loading="lazy"
+            class="absolute left-1/2 -translate-x-1/2 top-20 inset-0 w-auto h-[200px] object-cover z-10 opacity-10"
+        /> -->
+        <slot />
+
+    </div>
+</section>
