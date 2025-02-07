@@ -91,16 +91,15 @@ export default function Header({currentLocale, navLinks, langLinks}){
                     {/* Navegación */}
                     <nav className={`${classNav()} text-xl lg:text-base xl:text-xl font-normal uppercase flex gap-8 lg:gap-4 transition-all duration-300`}>
                         {
-                            isMobile && scrolled && (
-                                <>
-                                    <div className="animate-fade flex justify-center items-center gap-4 mb-2">
-                                        { LangSelector ?
-                                            <LangSelector scrolled={scrolled} langLinks={langLinks} tooltipId="2" />
-                                            : <SkeletonLang scrolled={scrolled} />
-                                        }
-                                    </div>
-                                </>
-                            )
+                            (isMobile && scrolled) ? (
+                                
+                                <div className="animate-fade flex justify-center items-center gap-4 mb-2">
+                                    { LangSelector ?
+                                        <LangSelector scrolled={false} langLinks={langLinks} tooltipId="2" />
+                                        : <SkeletonLang scrolled={false} />
+                                    }
+                                </div>
+                            ) : null
                         }
                         <a href={navLinks.about} className={`${classNavLink(navLinks.about)} animate-fade hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.about}</a>
                         <a href={navLinks.production} className={`${classNavLink(navLinks.production)} animate-fade hover:font-bold hover:scale-90 transition-all duration-200`}>{i18n.navBar.production}</a>
