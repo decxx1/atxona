@@ -14,7 +14,7 @@ const i18n = getI18N({ currentLocale });
         </div> 
     </div>
     <div class="py-16 px-4 mx-auto -mt-96 max-w-screen-xl sm:py-20 lg:px-6 ">
-        <FormContact i18n={i18n.contact} client:load />
+        <FormContact i18n={i18n.contact} client:only />
         
         <ContactInfo />
     </div>

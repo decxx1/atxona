@@ -54,14 +54,10 @@ export default function Header({currentLocale, navLinks, langLinks}){
             return '';
         }
 
-        if (showNavMobile) {
-            if(scrolled){
-                return 'absolute text-white left-0 top-32 bg-tertiary w-full flex flex-col gap-4 px-8 py-8 z-50';
-            }else {
-                return 'absolute text-white left-0 top-40 bg-tertiary w-full flex flex-col gap-4 px-8 py-8 z-50';
-            }
+        if(scrolled){
+            return 'max-lg:top-28';
         }else {
-            return 'hidden';
+            return 'max-lg:top-36';
         }
     }
     const classNavLink = (url) => {
@@ -84,12 +80,11 @@ export default function Header({currentLocale, navLinks, langLinks}){
                     <a href={navLinks.index}>
                         <img src="/images/logos/atxona.svg" alt="Logo Atxona" className={`${scrolled ? "lg:w-56" : "xl:w-72" } hover:drop-shadow-lg w-56 md:w-64 transition-all duration-300`} />
                     </a>
-                    {
-                        isMobile &&
-                        <svg onClick={() => handleMenuMobile()} className={`w-16 text-textLogo hover:text-white rounded hover:bg-tertiary p-2 cursor-pointer`}  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="currentColor" fillRule="evenodd" d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75M2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8m6 4.25a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75" clipRule="evenodd"/></svg>
-                    }
+                    
+                    <svg onClick={() => handleMenuMobile()} className={`lg:hidden w-16 text-textLogo hover:text-white rounded hover:bg-tertiary p-2 cursor-pointer`}  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="currentColor" fillRule="evenodd" d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75M2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8m6 4.25a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75" clipRule="evenodd"/></svg>
+                    
                     {/* Navegación */}
-                    <nav className={`${classNav()} text-xl lg:text-base xl:text-xl font-normal uppercase flex gap-8 lg:gap-4 transition-all duration-300`}>
+                    <nav className={`${showNavMobile ? "" : "max-lg:hidden"} ${classNav()} max-lg:absolute max-lg:text-white max-lg:left-0 max-lg:bg-tertiary max-lg:w-full max-lg:flex max-lg:flex-col max-lg:px-8 max-lg:py-8 max-lg:z-50 text-xl lg:text-base xl:text-xl font-normal uppercase lg:flex gap-4 transition-all duration-300`}>
                         {
                             (isMobile && scrolled) ? (
                                 
