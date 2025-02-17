@@ -4,9 +4,10 @@ interface Props {
     image: ImagesComponent;
     rtl?: boolean;
     logo?: boolean;
+    orientation?: string;
 }
 
-const { image, rtl, logo } = Astro.props;
+const { image, rtl, logo, orientation } = Astro.props;
 ---
 <section class="bg-white">
     <div 
