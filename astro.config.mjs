@@ -3,7 +3,7 @@ import { defineConfig, envField } from 'astro/config';
 
 import react from '@astrojs/react';
 
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
@@ -12,6 +12,9 @@ export default defineConfig({
   build: {
     // Ejemplo: Genera `page.html` en lugar de `page/index.html` durante la compilación.
     format: 'file'
+  },
+  vite: {
+    plugins: [tailwindcss()]
   },
   i18n: {
     defaultLocale: 'es',
@@ -27,7 +30,7 @@ export default defineConfig({
   experimental: {
     svg: true,
   },
-  integrations: [react(), tailwind()],
+  integrations: [react()],
   env: {
     schema: {
       INSTAGRAM: envField.string({ context: "client", access: "public", optional: true }),
