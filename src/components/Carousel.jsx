@@ -1,19 +1,31 @@
-import { useState } from "react"
+import { useState, useEffect, useCallback } from "react"
 
 export default function ImageCarousel ({ title, images }) {
   const [currentIndex, setCurrentIndex] = useState(0)
+
+  const goToNext = useCallback(() => {
+    setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1))
+  }, [images.length])
 
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1))
   }
 
-  const goToNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1))
-  }
-
   const goToIndex = (index) => {
     setCurrentIndex(index)
   }
+
+  useEffect(() => {
+    let interval
+    if (images.length > 1) {
+      interval = setInterval(goToNext, 4000)
+    }
+    return () => {
+      if (interval) {
+        clearInterval(interval)
+      }
+    }
+  }, [goToNext, images.length])
 
   if (images.length === 0) {
     return null
@@ -45,7 +57,7 @@ export default function ImageCarousel ({ title, images }) {
         <>
           <button
             onClick={goToPrevious}
-            className="absolute z-30 top-1/2 left-4 transform -translate-y-1/2 bg-white/30 hover:bg-white/50 focus:ring-4 focus:ring-white focus:outline-none p-2 rounded-full"
+            className="absolute z-30 top-1/2 left-4 transform -translate-y-1/2 bg-white/30 hover:bg-white/50 focus:ring-4 focus:ring-white focus:outline-none p-2 rounded-full cursor-pointer"
             aria-label="Previous image"
           >
             <svg className="w-6 h-6 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
@@ -54,7 +66,7 @@ export default function ImageCarousel ({ title, images }) {
           </button>
           <button
             onClick={goToNext}
-            className="absolute z-30 top-1/2 right-4 transform -translate-y-1/2 bg-white/30 hover:bg-white/50 focus:ring-4 focus:ring-white focus:outline-none p-2 rounded-full"
+            className="absolute z-30 top-1/2 right-4 transform -translate-y-1/2 bg-white/30 hover:bg-white/50 focus:ring-4 focus:ring-white focus:outline-none p-2 rounded-full cursor-pointer"
             aria-label="Next image"
           >
             <svg className="w-6 h-6 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
@@ -66,7 +78,9 @@ export default function ImageCarousel ({ title, images }) {
               <button
                 key={index}
                 onClick={() => goToIndex(index)}
-                className={`w-3 h-3 rounded-full ${index === currentIndex ? "bg-white" : "bg-white bg-opacity-50"}`}
+                className={`rounded-full transition-all duration-300 cursor-pointer w-3 h-3 ${
+                  index === currentIndex ? "bg-white" : " bg-white opacity-50"
+                }`}
                 aria-label={`Go to slide ${index + 1}`}
               />
             ))}
