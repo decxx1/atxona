@@ -20,6 +20,7 @@ const { image, rtl, logo, orientation } = Astro.props;
                 loading="lazy"
                 class={`w-full h-full ${ logo ? "object-contain px-6" : "object-cover"}`}
                 data-aos="fade" data-aos-duration="1000" data-aos-delay="200"
+                style={ orientation && `object-position: ${ orientation }`}
             />
         </div>
         <div 

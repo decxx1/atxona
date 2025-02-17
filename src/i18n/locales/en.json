@@ -1,10 +1,10 @@
 {
     "navBar":{
-        "about": "Quiénes somos",
-        "production": "Producción",
-        "services": "Servicios",
-        "marketing": "Comercialización",
-        "contact": "Contacto"
+        "about": "About us",
+        "production": "Production",
+        "services": "Services",
+        "marketing": "Products Sale",
+        "contact": "Contact"
     },
     "footer":{
         "credits":{
