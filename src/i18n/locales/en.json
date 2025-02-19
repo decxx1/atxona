@@ -21,7 +21,7 @@
         "features": "En Atxona, apostamos por la <strong class='font-bold'>calidad</strong> mediante inversiones en nuevas variedades y tecnología de avanzada, garantizando la <strong class='font-bold'>frescura y el sabor natural de nuestros productos.</strong>",
         "motto": "<strong class='font-bold'>Nuestro lema, \"Calidad y sabor natural al mundo\"</strong>, es el reflejo de cada etapa de nuestros procesos, siempre con el compromiso de superar las expectativas de nuestros clientes.",
         "sustainability": {
-            "parragraph1": "Estamos comprometidos con la <strong class='font-bold'>sostenibilidad</strong>, nuestra misión es <strong class='font-bold'>proteger los recursos</strong> naturales y sociales, <strong class='font-bold'>respetando el medio ambiente</strong> y generando empleo, promoviendo así un <strong class='font-bold'>impacto positivo y responsable</strong> en nuestro entorno, <strong>devolviendo a la tierra lo que la tierra nos da.</strong>",
+            "parragraph1": "Estamos comprometidos con la <strong class='font-bold'>sostenibilidad</strong>, nuestra misión es <strong class='font-bold'>proteger los recursos</strong> naturales y sociales, <strong class='font-bold'>respetando el medio ambiente</strong> y generando empleo, promoviendo así un <strong class='font-bold'>impacto positivo y responsable</strong> en nuestro entorno, <strong class='font-bold'>devolviendo a la tierra lo que la tierra nos da.</strong>",
             "parragraph2": "Nuestra visión es consolidarnos como un <strong class='font-bold'>grupo empresario líder en la producción, empaque y comercialización de frutas frescas</strong>, especialmente uvas de mesa sin semilla, destacando por nuestra inocuidad e innovación <strong class='font-bold'>a nivel nacional e internacional</strong>."
         }
     },
@@ -37,7 +37,7 @@
             "parragraph3": "En 1913, Don Severiano junto a su esposa e hijos (entre ellos, Guillermo, nuestro Atxona = que en euskera significa “ABUELO”) se establecieron en Alto Verde, San Martín, Mendoza “Tierra del Sol y del Buen Vino”."
         },
         "tradition": {
-            "parragraph1": "Con el paso de los años, y guiados por una visión certera del futuro, decidieron dedicarse a la <strong>vitivinicultura</strong>, aprovechandolas excelentes condiciones agroclimáticas que Mendoza les ofrecía, para luego, especializarse en el cultivo de <strong>uvas frescas con y sin semilla</strong> y en la <strong>producción, almacenamiento, empaque y comercialización de frutas frescas en general.</strong>",
+            "parragraph1": "Con el paso de los años y guiados por una visión certera del futuro, decidieron dedicarse a la <strong>vitivinicultura</strong>, aprovechando las excelentes condiciones agroclimáticas que Mendoza les ofrecía, para luego, especializarse en el cultivo de <strong>uvas frescas</strong> y en la <strong>producción, almacenamiento, empaque y comercialización de frutas en general.</strong>",
             "parragraph2": "La tradición familiar de esfuerzo, trabajo y compromiso con la palabra empeñada se ha transmitido a lo largo de tres generaciones, marcadas por los valores de responsabilidad, dedicación y trabajo en equipo."
         }
     },
@@ -60,7 +60,7 @@
             "parragraph1": "Producción de uvas de mesa con y sin semilla para consumo en fresco",
             "parragraph2": "Producción de vides para vinificar.",
             "button": "(ver fichas técnicas)",
-            "footer": "Todos nuestros procesos productivos en la finca se han ido adaptando hacia las nuevas tendencias globales de estándares de calidad, complementados con los procesos de empaque de almacenamiento y de traslado.<br class='md:hidden' /><br class='md:hidden' /> Aplicando acciones concretas en la ejecución de la trazabilidad protegiendo la calidad y la naturalidad de nuestros productos, logrando la sostenibilidad en el tiempo. Cultivamos calidad, cosechamos confianza."
+            "footer": "Todos nuestros procesos productivos en la finca se han ido adaptando hacia las nuevas tendencias globales de estándares de calidad, complementados con los procesos de empaque de almacenamiento y de traslado.<br class='md:hidden' /><br class='md:hidden' /> Aplicamos acciones concretas en la ejecución de la trazabilidad, protegiendo la calidad y la naturalidad de nuestros productos, logrando la sostenibilidad en el tiempo. Cultivamos calidad, cosechamos confianza."
         }
     },
     "services": {

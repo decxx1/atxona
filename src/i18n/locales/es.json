@@ -21,7 +21,7 @@
         "features": "En Atxona, apostamos por la <strong class='font-bold'>calidad</strong> mediante inversiones en nuevas variedades y tecnología de avanzada, garantizando la <strong class='font-bold'>frescura y el sabor natural de nuestros productos.</strong>",
         "motto": "<strong class='font-bold'>Nuestro lema, \"Calidad y sabor natural al mundo\"</strong>, es el reflejo de cada etapa de nuestros procesos, siempre con el compromiso de superar las expectativas de nuestros clientes.",
         "sustainability": {
-            "parragraph1": "Estamos comprometidos con la <strong class='font-bold'>sostenibilidad</strong>, nuestra misión es <strong class='font-bold'>proteger los recursos</strong> naturales y sociales, <strong class='font-bold'>respetando el medio ambiente</strong> y generando empleo, promoviendo así un <strong class='font-bold'>impacto positivo y responsable</strong> en nuestro entorno, <strong>devolviendo a la tierra lo que la tierra nos da.</strong>",
+            "parragraph1": "Estamos comprometidos con la <strong class='font-bold'>sostenibilidad</strong>, nuestra misión es <strong class='font-bold'>proteger los recursos</strong> naturales y sociales, <strong class='font-bold'>respetando el medio ambiente</strong> y generando empleo, promoviendo así un <strong class='font-bold'>impacto positivo y responsable</strong> en nuestro entorno, <strong class='font-bold'>devolviendo a la tierra lo que la tierra nos da.</strong>",
             "parragraph2": "Nuestra visión es consolidarnos como un <strong class='font-bold'>grupo empresario líder en la producción, empaque y comercialización de frutas frescas</strong>, especialmente uvas de mesa sin semilla, destacando por nuestra inocuidad e innovación <strong class='font-bold'>a nivel nacional e internacional</strong>."
         }
     },
@@ -73,7 +73,7 @@
         "packing": {
             "title": "Empaque",
             "parragraph1": "Brindamos un servicio de calidad en el embalaje de uvas frescas provenientes de nuestra Finca Atxona.",
-            "parragraph2": "Adaptamos nuestros  servicios de empaque en función de los requerimientos de los destinos comerciales (nacionales e internacionales) de la fruta.",
+            "parragraph2": "Adaptamos nuestros servicios de empaque en función de los requerimientos de los destinos comerciales (nacionales e internacionales) de la fruta.",
             "parragraph3": "Trabajamos bajo un Sistema de gestión de calidad y seguridad alimentaria, respetando estándares mundiales, lo que nos permite validar nuestros procesos, asegurando la obtención de un producto de excelencia."
         },
         "cold": {
