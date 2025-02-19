@@ -71,8 +71,8 @@ export default function Header({currentLocale, navLinks, langLinks}){
             <div className="container mx-auto flex flex-col px-6 lg:px-0">
                 {/* Fila superior: Íconos de idiomas */}
                 { LangSelector ?
-                    <LangSelector scrolled={scrolled} langLinks={langLinks} tooltipId="1" />
-                    : <SkeletonLang scrolled={scrolled} />
+                    <LangSelector scrolled={scrolled} langLinks={langLinks} tooltipId="1" currentLocale={currentLocale} />
+                    : <SkeletonLang scrolled={scrolled} currentLocale={currentLocale} />
                 }
                 {/* Fila principal: Logo y Navegación */}
                 <div className={`flex items-center justify-between`}>
@@ -90,8 +90,8 @@ export default function Header({currentLocale, navLinks, langLinks}){
                                 
                                 <div className="animate-fade flex justify-center items-center gap-4 mb-2">
                                     { LangSelector ?
-                                        <LangSelector scrolled={false} langLinks={langLinks} tooltipId="2" />
-                                        : <SkeletonLang scrolled={false} />
+                                        <LangSelector scrolled={false} langLinks={langLinks} tooltipId="2" currentLocale={currentLocale} />
+                                        : <SkeletonLang scrolled={false} currentLocale={currentLocale} />
                                     }
                                 </div>
                             ) : null
