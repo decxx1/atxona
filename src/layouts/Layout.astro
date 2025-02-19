@@ -41,12 +41,19 @@ const navLinks = {
 	marketing: getRelativeLocaleUrl(currentLocale ?? "", "marketing"),
 	contact: getRelativeLocaleUrl(currentLocale ?? "", "contact") 
 };
-const langLinks = {
-	es: translatePath("/","es"),
-	en: translatePath("/","en"),
-	pt: translatePath("/","pt")
-};
 const currentUrl = url.pathname;
+const getFinalUrl = () => {
+	//remove /en or /pt from url
+	return currentUrl.replace(/\/(en|pt)/, "");
+}
+
+console.log(currentUrl)
+const langLinks = {
+	es: translatePath(getFinalUrl(),"es"),
+	en: translatePath(getFinalUrl(),"en"),
+	pt: translatePath(getFinalUrl(),"pt")
+};
+
 ---
 <!doctype html>
 <html lang="es">
