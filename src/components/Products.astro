@@ -6,7 +6,7 @@ const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
 
 ---
-<section class="bg-white py-20">
+<section class="bg-white py-20 overflow-hidden">
     <div class="container mx-auto mb-20">
         <hr class="border border-semiBlack mb-8">
         <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100" class="text-primary text-5xl font-medium tracking-widest text-right">{i18n.marketing.productTitle}</h2>

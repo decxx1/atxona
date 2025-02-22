@@ -24,7 +24,7 @@ const LogoCarousel = () => {
   }
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative container mx-auto overflow-hidden">
       <div className="flex items-center justify-center h-full">
         <button
           onClick={prevSlide}

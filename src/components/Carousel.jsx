@@ -41,7 +41,7 @@ export default function ImageCarousel ({ title, images }) {
           className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-300 ${
             index === currentIndex ? "opacity-100" : "opacity-0"
           }`}
-          loading="lazy"
+          loading={index === 0 ? "eager" : "lazy"}
         />
       ))}
       {/* <!-- gradient --> */}
