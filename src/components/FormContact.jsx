@@ -74,7 +74,6 @@ export default function FormContact({i18n}) {
     return (
         <>
             <form
-                data-aos="fade" data-aos-duration="1000" data-aos-delay="100"
                 onSubmit={handleSubmit}
                 method="post"
                 id="contactForm"
