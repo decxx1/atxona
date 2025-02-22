@@ -1,5 +1,3 @@
-"use client"
-
 import { useState, useEffect } from "react"
 import clientsData from "@/data/clients.json"
 
@@ -47,6 +45,7 @@ const LogoCarousel = () => {
                   alt={client.alt}
                   className="object-contain w-full h-56"
                   style={{aspectRatio: client.width / client.height}}
+                  loading="lazy"
                 />
               </div>
             )
