@@ -14,8 +14,8 @@
     },
     "index":{
         "metaData":{
-            "title": "Atxona - Calidad y sabor natural al mundo",
-            "description": "En Atxona, apostamos por la calidad, inversiones en nuevas variedades y tecnología de avanzada, garantizando la frescura y el sabor natural de nuestros productos"
+            "title": "Atxona - Qualidade e sabor natural para o mundo",
+            "description": "Na Atxona, apostamos na qualidade através de investimentos em novas variedades e tecnologia avançada, garantindo a frescura e o sabor natural de nossos produtos."
         },
         "hero": "<strong>Qualidade</strong> e <strong>sabor natural</strong> <br class='max-lg:hidden'/>para o mundo.",
         "features": "Na Atxona, apostamos na <strong class='font-bold'>qualidade</strong> através de investimentos em novas variedades e tecnologia avançada, garantindo a <strong class='font-bold'>frescura e o sabor natural de nossos produtos.</strong>",
@@ -27,8 +27,8 @@
     },
     "about":{
         "metaData":{
-            "title": "Atxona - Quiénes Somos",
-            "description": "Con una tradición familiar de esfuerzo, trabajo y compromiso, Atxona se dedicada a la producción y comercialización de frutas frescas con y sin semillas"
+            "title": "Atxona - Sobre nós",
+            "description": "Com uma tradição familiar de esforço, trabalho e compromisso, Atxona se dedica à produção e comercialização de frutas frescas, especialmente uvas de mesa sem sementes"
         },
         "hero": "Nossa <strong class='font-bold'><br/>História</strong>",
         "history": {
@@ -43,8 +43,8 @@
     },
     "production":{
         "metaData":{
-            "title": "Atxona - Producción",
-            "description": "Cultivamos calidad, cosechamos confianza. Nos dedicamos al desarrollo y a la producción de vides, y de otras frutas y verduras de estación"
+            "title": "Atxona - Produção",
+            "description": "Cultivamos qualidade, colhemos confiança. Nos dedicamos ao desenvolvimento e produção de videiras e outras frutas e vegetais da estação."
         },
         "hero": "Cultivamos <strong>qualidade</strong>,<br/> colhemos <strong>confiança</strong>",
         "development": "Na Finca Atxona, nos dedicamos ao <strong>desenvolvimento</strong> e <strong>produção de videiras</strong> e outras <strong>frutas e vegetais da estação.</strong>",
@@ -65,8 +65,8 @@
     },
     "services": {
         "metaData":{
-            "title": "Atxona - Servicios",
-            "description": "contamos con una Planta de Procesos, ubicada en las proximidades de nuestros cultivos, optimizando tiempos de traslado y protegiendo el producto"
+            "title": "Atxona - Serviços",
+            "description": "Contamos com uma Planta de Processos, localizada nas proximidades de nossos cultivos, otimizando os tempos de transporte e protegendo o produto"
         },
         "hero": "<strong>Tecnologia</strong> e <strong>Inovação</strong><br>nos processos",
         "transfer": "No Grupo Atxona, contamos com uma <strong class='font-bold'>Planta de Processos</strong>, localizada nas proximidades de nossos cultivos, <strong class='font-bold'>otimizando os tempos</strong> de transporte e <strong class='font-bold'>protegendo o produto</strong> em todas as etapas de manipulação.",
@@ -92,8 +92,8 @@
     },
     "marketing":{
         "metaData":{
-            "title": "Atxona - Comercialización",
-            "description": "Atxona ha fortalecido su presencia en los mercados globales, conectando con los principales centros de distribución tanto en el mercado interno y externo."
+            "title": "Atxona - Comercialização",
+            "description": "O Grupo Atxona fortaleceu sua presença nos mercados globais, conectando-se com os principais centros de distribuição tanto no mercado interno, quanto no mercado externo."
         },
         "hero": "<strong>Importamos</strong> e <strong>exportamos</strong> sabor natural para o mundo.",
         "international": "O Grupo Atxona fortaleceu sua presença nos <strong class='font-bold'>mercados globais</strong>, conectando-se com os principais centros de distribuição tanto no <strong class='font-bold'>mercado interno</strong>, Buenos Aires, Córdoba e Mendoza, quanto no <strong class='font-bold'>mercado externo</strong>, colaborando principalmente com atacadistas de frutas do Brasil, Chile e Peru, entre outros.",
@@ -192,8 +192,8 @@
     },
     "contact":{
         "metaData":{
-            "title": "Atxona - Contacto",
-            "description": "¡Estemos conectados!, tenemos estrechas relaciones con el mercado interno y externo. Envíenos un mensaje y nos pondremos en contacto."
+            "title": "Atxona - Contato",
+            "description": "Vamos nos conectar! Temos relacionamento próximo com o mercado interno e externo. Envie-nos uma mensagem e entraremos em contato"
         },
         "title": "Contate-nos",
         "form":{
