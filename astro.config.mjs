@@ -8,7 +8,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
-  site: 'https://fincaatxona.com.ar/',
+  site: 'https://grupoatxona.com.ar/',
   build: {
     // Ejemplo: Genera `page.html` en lugar de `page/index.html` durante la compilación.
     format: 'file'
