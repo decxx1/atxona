@@ -8,107 +8,107 @@
     },
     "footer":{
         "credits":{
-            "first": "Diseña",
-            "second": "Desarrolla"
+            "first": "Designing",
+            "second": "Develompment"
         }
     },
     "index":{
         "metaData":{
-            "title": "Atxona - Calidad y sabor natural al mundo",
+            "title": "Atxona - Quality and natural flavor to the world",
             "description": "En Atxona, apostamos por la calidad, inversiones en nuevas variedades y tecnología de avanzada, garantizando la frescura y el sabor natural de nuestros productos"
         },
         "hero": "<strong>Quality</strong> and <strong>natural flavor</strong> <br class='max-lg:hidden'/>to the world.",
         "features": "Atxona bets for <strong class='font-bold'>quality</strong> by investments in new varieties and advanced technology, ensuring <strong class='font-bold'>the freshness and natural flavor of our products.</strong>",
-        "motto": "<strong class='font-bold'>Nuestro lema, \"Calidad y sabor natural al mundo\"</strong>, es el reflejo de cada etapa de nuestros procesos, siempre con el compromiso de superar las expectativas de nuestros clientes.",
+        "motto": "<strong class='font-bold'>Our motto, \"Quality and natural flavor to the world\"</strong>, is a reflection of every stage of our processes, always with the commitment of overcoming our customers' expectations.",
         "sustainability": {
-            "parragraph1": "We are committed to <strong class='font-bold'>sustainability</strong>, our mission is <strong class='font-bold'>to protect</strong> natural and social <strong class='font-bold'>resources</strong>, <strong class='font-bold'>respetando el medio ambiente</strong> y generando empleo, promoviendo así un <strong class='font-bold'>impacto positivo y responsable</strong> en nuestro entorno, <strong class='font-bold'>devolviendo a la tierra lo que la tierra nos da.</strong>",
-            "parragraph2": "Nuestra visión es consolidarnos como un <strong class='font-bold'>grupo empresario líder en la producción, empaque y comercialización de frutas frescas</strong>, especialmente uvas de mesa sin semilla, destacando por nuestra inocuidad e innovación <strong class='font-bold'>a nivel nacional e internacional</strong>."
+            "parragraph1": "We are committed to <strong class='font-bold'>sustainability</strong>, our mission is <strong class='font-bold'>to protect</strong> natural and social <strong class='font-bold'>resources, respecting the environment</strong> and creating jobs, promoting a <strong class='font-bold'>positive and responsible impact</strong> in our setting, <strong class='font-bold'>giving back to Earth what the Earth gives us.</strong>",
+            "parragraph2": "Our vision is to consolidate ourselves as a <strong class='font-bold'>leading business group producing, packing and trading fresh fruits</strong>, especially table grapes with no seeds, highlighting our safety and innovation <strong class='font-bold'>at a national and international level.</strong>."
         }
     },
     "about":{
         "metaData":{
-            "title": "Atxona - Quiénes Somos",
+            "title": "Atxona - About us",
             "description": "Con una tradición familiar de esfuerzo, trabajo y compromiso, Atxona se dedicada a la producción y comercialización de frutas frescas con y sin semillas"
         },
-        "hero": "Nuestra <strong class='font-bold'><br/>Historia</strong>",
+        "hero": "Our <strong class='font-bold'><br/>History</strong>",
         "history": {
-            "parragraph1": "<strong>La historia del Grupo Atxona</strong> se remonta al año 1.910 cuando Don Severiano Salvarredi Esnaola y sus hermanos partieron desde la provincia de Guipúzcoa, del País Vasco, hacia Argentina.",
-            "parragraph2": "Llegaron con pocas pertenencias, pero llenos de ilusiones, esperanzas y con el sueño, como el de muchos inmigrantes: de “hacer la América”.",
-            "parragraph3": "En 1913, Don Severiano junto a su esposa e hijos (entre ellos, Guillermo, nuestro Atxona = que en euskera significa “ABUELO”) se establecieron en Alto Verde, San Martín, Mendoza “Tierra del Sol y del Buen Vino”."
+            "parragraph1": "<strong>Atxona Group history</strong> dates back to 1910 when Don Severiano Salvarredi Esnaola and his siblings departed from the province of Guipuzcoa, in the Basque Country, to Argentina.",
+            "parragraph2": "They arrived with few belongings, but full of illusions, hope and with the dream, as many immigrants: of “make America”.",
+            "parragraph3": "In 1,913, Don Severino with his wife and children (amongst them, Guillermo, our Atxona = that in Euskera means “GRANDFATHER”) settled down in Alto Verde, San Martín, Mendoza “the land of sun and good wines”."
         },
         "tradition": {
-            "parragraph1": "Con el paso de los años y guiados por una visión certera del futuro, decidieron dedicarse a la <strong>vitivinicultura</strong>, aprovechando las excelentes condiciones agroclimáticas que Mendoza les ofrecía, para luego, especializarse en el cultivo de <strong>uvas frescas</strong> y en la <strong>producción, almacenamiento, empaque y comercialización de frutas en general.</strong>",
-            "parragraph2": "La tradición familiar de esfuerzo, trabajo y compromiso con la palabra empeñada se ha transmitido a lo largo de tres generaciones, marcadas por los valores de responsabilidad, dedicación y trabajo en equipo."
+            "parragraph1": "Over the years, and guided by an accurate vision of the future, they decided to focus on <strong>viniculture</strong>, taking advantages of the excellent agroclimatic conditions that Mendoza offered, subsequently they could specialize on the growing of <strong>fresh grapes</strong> and on the <strong>production, store, packaging and trade of fruits in general.</strong>",
+            "parragraph2": "The family tradition of determined effort, work and commitment has been handed down through three generations, marked by values of responsibility, dedication and team work."
         }
     },
     "production":{
         "metaData":{
-            "title": "Atxona - Producción",
+            "title": "Atxona - Production",
             "description": "Cultivamos calidad, cosechamos confianza. Nos dedicamos al desarrollo y a la producción de vides, y de otras frutas y verduras de estación"
         },
-        "hero": "Cultivamos <strong>calidad</strong>,<br/> cosechamos <strong>confianza</strong>",
-        "development": "En Finca Atxona, nos dedicamos al <strong>desarrollo</strong> y a la <strong>producción de vides</strong> y de otras <strong>frutas y verduras de estación.</strong>",
+        "hero": "Growing <strong>quality</strong>,<br/> harvesting <strong>confidence</strong>",
+        "development": "Atxona Estate <strong>develops</strong> and <strong>produces vines</strong> and other season <strong>fruits and vegetables.</strong>",
         "technicalSheet": {
-            "blackGrapes" : "Uvas sin semilla negras",
+            "blackGrapes" : "Black seedless grapes",
             "redGlobeGrapes" : "Uvas sin semilla Red Globe",
-            "redGrapes" : "Uvas sin semilla rojas",
-            "pinkGrapes" : "Uvas sin semilla rosadas",
-            "greenGrapes" : "Uvas sin semilla verdes"
+            "redGrapes" : "Red Globe Seedless Grapes",
+            "pinkGrapes" : "Pink Seedless Grapes",
+            "greenGrapes" : "Green seedless grapes"
         },
         "processes": {
-            "title": "Poseemos parcelas propias de vides asignadas a:",
-            "parragraph1": "Producción de uvas de mesa con y sin semilla para consumo en fresco",
-            "parragraph2": "Producción de vides para vinificar.",
-            "button": "(ver fichas técnicas)",
-            "footer": "Todos nuestros procesos productivos en la finca se han ido adaptando hacia las nuevas tendencias globales de estándares de calidad, complementados con los procesos de empaque de almacenamiento y de traslado.<br class='md:hidden' /><br class='md:hidden' /> Aplicamos acciones concretas en la ejecución de la trazabilidad, protegiendo la calidad y la naturalidad de nuestros productos, logrando la sostenibilidad en el tiempo. Cultivamos calidad, cosechamos confianza."
+            "title": "It has its own parcels of vines assigned to:",
+            "parragraph1": "Production of table grapes with and without seeds for fresh consumption",
+            "parragraph2": "Production of vines for winemaking",
+            "button": "(See Technical Sheets)",
+            "footer": "All our productive processes in the estate have been adapted to new global trends of quality standards, complemented by packing, storage and transport processes.<br class='md:hidden' /><br class='md:hidden' /> We carry out concrete actions on the executing of traceability, preserving the quality and naturalness of our products. Growing quality, harvesting confidence."
         }
     },
     "services": {
         "metaData":{
-            "title": "Atxona - Servicios",
+            "title": "Atxona - Services",
             "description": "contamos con una Planta de Procesos, ubicada en las proximidades de nuestros cultivos, optimizando tiempos de traslado y protegiendo el producto"
         },
-        "hero": "<strong>Tecnología</strong> e <strong>Innovación</strong><br>en los procesos.",
-        "transfer": "En Grupo Atxona contamos con una <strong class='font-bold'>Planta de Procesos</strong>, ubicada <strong class='font-bold'>en las proximidades</strong> de nuestros cultivos, <strong class='font-bold'>optimizando tiempos</strong> de traslado, <strong class='font-bold'>protegiendo así el producto</strong> en todos las etapas de manipulación.",
+        "hero": "Process <strong>Technology</strong> and <strong>Innovation</strong>",
+        "transfer": "Atxona Group has a <strong class='font-bold'>Process Plant</strong>, located <strong class='font-bold'>close to</strong> our crops, <strong class='font-bold'>optimizing</strong> the shipping time, <strong class='font-bold'>preserving the product</strong> in every stage of manipulation.",
         "packing": {
-            "title": "Empaque",
-            "parragraph1": "Brindamos un servicio de calidad en el embalaje de uvas frescas provenientes de nuestra Finca Atxona.",
-            "parragraph2": "Adaptamos nuestros  servicios de empaque en función de los requerimientos de los destinos comerciales (nacionales e internacionales) de la fruta.",
-            "parragraph3": "Trabajamos bajo un Sistema de gestión de calidad y seguridad alimentaria, respetando estándares mundiales, lo que nos permite validar nuestros procesos, asegurando la obtención de un producto de excelencia."
+            "title": "Packaging",
+            "parragraph1": "We provide a quality service in the packaging of fresh grapes from our Atxona Estate.",
+            "parragraph2": "We adapt our packaging services based on the requirements of the fruit commercial destinations (national and international).",
+            "parragraph3": "We work under a Quality and Food Safety Management System, respecting global standards, which allows us to guarantee our processes, ensuring the obtaining of an excellent product."
         },
         "cold": {
-            "title": "Frío",
-            "parragraph1": "Poseemos un sistema frigorífico con más de 600 m2 cubiertos, distribuidos estratégicamente:",
+            "title": "Cold",
+            "parragraph1": "We have a refrigeration system with more than 600 m2 covered, strategically distributed:",
             "parragraph2": {
-                "item1": "2 cámaras de frío convencional, para almacenar más de 800 pallets.",
-                "item2": "1 Túnel de pre frío tipo californiano para enfriar la fruta en corto plazo."
+                "item1": "2 conventional cold chambers, to store more than 800 pallets.",
+                "item2": "1 Californian-type pre-cold tunnel to cool down the fruit in the short term."
             },
-            "parragraph3": "Nuestras instalaciones nos permiten prestar un efectivo servicio de almacenamiento y enfriado, tanto para fruta a granel como de producto embalado y listo para despacho y comercialización (clamshells / cajas / pallets)."
+            "parragraph3": "Our facilities allow us to provide an effective storage and cooling service, both for bulk fruit and for packaged products ready for dispatch and marketing (clamshells / boxes / pallets)."
         },
         "bubble":{
-            "title": "Burbuja",
-            "parragraph": "<strong class='font-medium'>Establecimiento habilitado fitosanitariamente por el SENASA</strong> para proceso de fruta originaria del Área Regulada, preservando el estatus de Área Libre de la Región Patagónica de Argentina. Del mismo modo, para ser exportada a países con restricciones para Mosca de los Frutos."
+            "title": "Bubble",
+            "parragraph": "<strong class='font-medium'>Establishment phytosanitary approved by SENASA</strong> (National Food Safety and Quality Service) for processing fruit originating from the Regulated Area, preserving the status of Free Area of the Patagonian Region of Argentina. Likewise, to be exported to countries with restrictions for Fruit Fly."
         }
     },
     "marketing":{
         "metaData":{
-            "title": "Atxona - Comercialización",
+            "title": "Atxona - Products Sale",
             "description": "Atxona ha fortalecido su presencia en los mercados globales, conectando con los principales centros de distribución tanto en el mercado interno y externo."
         },
-        "hero": "<strong>Importamos</strong> y <strong>exportamos</strong> sabor natural al mundo.",
-        "international": "Grupo Atxona ha fortalecido su presencia en los <strong class='font-bold'>mercados globales</strong>, conectando con los principales centros de distribución tanto en el <strong class='font-bold'>mercado interno</strong>, Buenos Aires, Córdoba y Mendoza, como en el <strong class='font-bold'>mercado externo</strong>, colaborando principalmente con mayoristas de fruta de Brasil, Chile y Perú entre otros.",
+        "hero": "We <strong>import</strong> and <strong>export</strong> natural flavors to the world.",
+        "international": "Atxona Group has strengthened its presence in <strong class=’font-bold’>global markets</strong>, connecting with the main distribution centers both in the <strong class=’font-bold’>domestic market</strong>, Buenos Aires, Córdoba and Mendoza, and in the <strong class=’font-bold’>foreign market</strong>, collaborating mainly with fruit wholesalers from Brazil, Chile and Peru, among others.",
         "transport": {
-            "title1": "Tecnología de refrigeración de última generación",
-            "parragraph1": "Aseguramos la cadena de frío en todo el proceso, manteniendo la frescura de las frutas desde el origen hasta el cliente final. ",
-            "title2": "Trabajamos con supermercados y mayoristas",
-            "parragraph2": "Nuestros clientes valoran tanto la calidad, como los formatos de presentación de nuestros productos.",
-            "title3": "Sistema de logística <span class='inline text-nowrap'>just-in-time</span>",
-            "parragraph3": "Cumplimos con los estándares más altos del sector frutícola y garantizamos entregas en tiempo y forma."
+            "title1": "First class refrigeration technology",
+            "parragraph1": "We ensure the cold chain throughout the entire process, maintaining the freshness of the fruit from the source to the final customer.",
+            "title2": "Supermarkets and wholesalers",
+            "parragraph2": "Our customers value both the quality and the presentation formats of our products.",
+            "title3": "<span class='inline text-nowrap'>Just-in-time</span> logistics system",
+            "parragraph3": "We meet the highest standards in the fruit sector and guarantee deliveries timely and in due form."
         },
-        "productTitle": "Productos",
+        "productTitle": "Products",
         "products": [
             {
-                "name":"Paltas",
+                "name":"Avocados",
                 "variety": "Hass",
                 "image": "/images/marketing/products/paltas.webp",
                 "countries": [
@@ -116,7 +116,7 @@
                 ]
             },
             {
-                "name":"Kiwi",
+                "name":"Kiwis",
                 "variety": "HAYWARD",
                 "image": "/images/marketing/products/kiwi.webp",
                 "countries": [
@@ -124,7 +124,7 @@
                 ]
             },
             {
-                "name":"Uvas",
+                "name":"Grapes",
                 "variety": "",
                 "image": "/images/marketing/products/uvas.webp",
                 "countries": [
@@ -132,7 +132,7 @@
                 ]
             },
             {
-                "name":"Cítricos",
+                "name":"Citrus",
                 "variety": "Pomelo, Naranja y limón",
                 "image": "/images/marketing/products/citricos.webp",
                 "countries": [
@@ -140,7 +140,7 @@
                 ]
             },
             {
-                "name":"Manzanas",
+                "name":"Apples",
                 "variety": "Roja y verde",
                 "image": "/images/marketing/products/manzanas.webp",
                 "countries": [
@@ -148,7 +148,7 @@
                 ]
             },
             {
-                "name":"Tomates",
+                "name":"Tomatoes",
                 "variety": "",
                 "image": "/images/marketing/products/tomates.webp",
                 "countries": [
@@ -156,7 +156,7 @@
                 ]
             },
             {
-                "name":"Melones",
+                "name":"Melons",
                 "variety": "",
                 "image": "/images/marketing/products/melones.webp",
                 "countries": [
@@ -164,7 +164,7 @@
                 ]
             },
             {
-                "name":"Arándanos",
+                "name":"Blueberries",
                 "variety": "",
                 "image": "/images/marketing/products/arandanos.webp",
                 "countries": [
@@ -180,7 +180,7 @@
                 ]
             },
             {
-                "name":"Ciruelas",
+                "name":"Plums",
                 "variety": "",
                 "image": "/images/marketing/products/ciruelas.webp",
                 "countries": [
@@ -188,35 +188,35 @@
                 ]
             }
         ],
-        "clientsTitle": "Nuestros Clientes"
+        "clientsTitle": "Our customers"
     },
     "contact":{
         "metaData":{
-            "title": "Atxona - Contacto",
+            "title": "Atxona - Contact",
             "description": "¡Estemos conectados!, tenemos estrechas relaciones con el mercado interno y externo. Envíenos un mensaje y nos pondremos en contacto."
         },
-        "title": "Contactate con nosotros",
+        "title": "Contact us",
         "form":{
-            "success": "Gracias por consultar, te responderemos a la brevedad",
-            "nameTitle": "Nombre",
-            "namePlaceholder": "Tu nombre",
-            "phoneTitle": "Teléfono",
-            "phonePlaceholder": "Tu teléfono",
+            "success": "Thank you for your inquiry, we will respond to you as soon as possible.",
+            "nameTitle": "Name",
+            "namePlaceholder": "Your name",
+            "phoneTitle": "Phone Number",
+            "phonePlaceholder": "Your phone number",
             "emailTitle": "E-mail",
-            "emailPlaceholder": "Tu e-mail",
-            "messageTitle": "Mensaje",
-            "messagePlaceholder": "Tu mensaje",
+            "emailPlaceholder": "Your e-mail",
+            "messageTitle": "Message",
+            "messagePlaceholder": "Your message",
             "button": {
-                "send":"Enviar",
-                "isSending":"Enviando..."
+                "send":"Send",
+                "isSending":"Sending..."
             }
 
         },
         "info": {
-            "phone": "Teléfono",
+            "phone": "Phone Number",
             "email": "E-mail",
             "whatsapp": "WhatsApp",
-            "address": "Dirección"
+            "address": "Address"
         }
     }
     
