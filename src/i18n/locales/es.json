@@ -44,7 +44,7 @@
     "production":{
         "metaData":{
             "title": "Atxona - Producción",
-            "description": "Cultivamos calidad, cosechamos confianza. Nos dedicamos al desarrollo y a la producción de vides, y de otras frutas y verduras de estación"
+            "description": "Cultivamos calidad, cosechamos confianza. Nos dedicamos al desarrollo y a la producción de vides, principalmente uvas sin semillas y de otras frutas y verduras de estación"
         },
         "hero": "Cultivamos <strong>calidad</strong>,<br/> cosechamos <strong>confianza</strong>",
         "development": "En Finca Atxona, nos dedicamos al <strong>desarrollo</strong> y a la <strong>producción de vides</strong> y de otras <strong>frutas y verduras de estación.</strong>",
@@ -66,7 +66,7 @@
     "services": {
         "metaData":{
             "title": "Atxona - Servicios",
-            "description": "contamos con una Planta de Procesos, ubicada en las proximidades de nuestros cultivos, optimizando tiempos de traslado y protegiendo el producto"
+            "description": "Contamos con una Planta de Procesos, ubicada en las proximidades de nuestros cultivos, optimizando tiempos de traslado y protegiendo el producto"
         },
         "hero": "<strong>Tecnología</strong> e <strong>Innovación</strong><br>en los procesos.",
         "transfer": "En Grupo Atxona contamos con una <strong class='font-bold'>Planta de Procesos</strong>, ubicada <strong class='font-bold'>en las proximidades</strong> de nuestros cultivos, <strong class='font-bold'>optimizando tiempos</strong> de traslado, <strong class='font-bold'>protegiendo así el producto</strong> en todos las etapas de manipulación.",

@@ -15,7 +15,7 @@
     "index":{
         "metaData":{
             "title": "Atxona - Quality and natural flavor to the world",
-            "description": "En Atxona, apostamos por la calidad, inversiones en nuevas variedades y tecnología de avanzada, garantizando la frescura y el sabor natural de nuestros productos"
+            "description": "Atxona bets for quality by investments in new varieties and advanced technology, ensuring the freshness and natural flavor of our products."
         },
         "hero": "<strong>Quality</strong> and <strong>natural flavor</strong> <br class='max-lg:hidden'/>to the world.",
         "features": "Atxona bets for <strong class='font-bold'>quality</strong> by investments in new varieties and advanced technology, ensuring <strong class='font-bold'>the freshness and natural flavor of our products.</strong>",
@@ -28,7 +28,7 @@
     "about":{
         "metaData":{
             "title": "Atxona - About us",
-            "description": "Con una tradición familiar de esfuerzo, trabajo y compromiso, Atxona se dedicada a la producción y comercialización de frutas frescas con y sin semillas"
+            "description": "With a family tradition of effort, work and commitment, Atxona is dedicated to the production and sale of fresh fruits with and without seeds."
         },
         "hero": "Our <strong class='font-bold'><br/>History</strong>",
         "history": {
@@ -44,7 +44,7 @@
     "production":{
         "metaData":{
             "title": "Atxona - Production",
-            "description": "Cultivamos calidad, cosechamos confianza. Nos dedicamos al desarrollo y a la producción de vides, y de otras frutas y verduras de estación"
+            "description": "Growing quality, harvesting confidence. Atxona Estate develops and produces vines, mainly seedless grapes and other season fruits and vegetables."
         },
         "hero": "Growing <strong>quality</strong>,<br/> harvesting <strong>confidence</strong>",
         "development": "Atxona Estate <strong>develops</strong> and <strong>produces vines</strong> and other season <strong>fruits and vegetables.</strong>",
@@ -66,7 +66,7 @@
     "services": {
         "metaData":{
             "title": "Atxona - Services",
-            "description": "contamos con una Planta de Procesos, ubicada en las proximidades de nuestros cultivos, optimizando tiempos de traslado y protegiendo el producto"
+            "description": "Atxona Group has a Process Plant, located close to our crops, optimizing the shipping time and preserving the product."
         },
         "hero": "Process<br><strong>Technology</strong> and <strong>Innovation</strong>",
         "transfer": "Atxona Group has a <strong class='font-bold'>Process Plant</strong>, located <strong class='font-bold'>close to</strong> our crops, <strong class='font-bold'>optimizing</strong> the shipping time, <strong class='font-bold'>preserving the product</strong> in every stage of manipulation.",
@@ -93,7 +93,7 @@
     "marketing":{
         "metaData":{
             "title": "Atxona - Products Sale",
-            "description": "Atxona ha fortalecido su presencia en los mercados globales, conectando con los principales centros de distribución tanto en el mercado interno y externo."
+            "description": "Atxona Group has strengthened its presence in global markets, connecting with the main distribution centers both in the domestic and in the foreign Market."
         },
         "hero": "We <strong>import</strong> and <strong>export</strong> natural flavors to the world.",
         "international": "Atxona Group has strengthened its presence in <strong class=’font-bold’>global markets</strong>, connecting with the main distribution centers both in the <strong class=’font-bold’>domestic market</strong>, Buenos Aires, Córdoba and Mendoza, and in the <strong class=’font-bold’>foreign market</strong>, collaborating mainly with fruit wholesalers from Brazil, Chile and Peru, among others.",
@@ -193,7 +193,7 @@
     "contact":{
         "metaData":{
             "title": "Atxona - Contact",
-            "description": "¡Estemos conectados!, tenemos estrechas relaciones con el mercado interno y externo. Envíenos un mensaje y nos pondremos en contacto."
+            "description": "Let's stay connected! We have close relationships with both the domestic and international markets. Send us a message and we'll get in touch."
         },
         "title": "Contact us",
         "form":{
