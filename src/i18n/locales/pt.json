@@ -106,6 +106,10 @@
             "parragraph3": "Cumprimos com os mais altos padrões do setor frutícola e garantimos entregas no prazo e na forma correta."
         },
         "productTitle": "Produtos",
+        "productsSubtitles":{
+            "origin":"Origem",
+            "varieties":"Variedades"
+        },
         "products": [
             {
                 "name":"Abacates ",

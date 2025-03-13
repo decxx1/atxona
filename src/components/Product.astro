@@ -6,6 +6,11 @@ interface Props {
     countries: Array<string>;
 }
 const { name, variety, image, countries } = Astro.props
+
+import { getI18N } from "@/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
 <article 
     data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100"
@@ -22,14 +27,14 @@ const { name, variety, image, countries } = Astro.props
             <div class="bg-tertiary/70 h-full text-left font-light text-white">
                 <div class="grid grid-cols-2 justify-between uppercase text-xl lg:text-2xl lg:tracking-wide pt-4 mx-4 lg:mx-8">
                     <div class="hidden">
-                        <h5 class="font-bold">Variedad</h5>
+                        <h5 class="font-bold">{i18n.marketing.productsSubtitles.varieties}</h5>
                         { 
                             variety &&
                             <p class={`${variety.length > 15 ? 'text-xl' : ''} max-xl:leading-none`}>{variety}</p>
                         }
                     </div>
                     <div>
-                        <h5 class="font-bold">Origen</h5>
+                        <h5 class="font-bold">{i18n.marketing.productsSubtitles.origin}</h5>
                         <div class="inline-flex gap-4">
                             {
                                 countries.map(country => (

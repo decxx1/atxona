@@ -106,6 +106,10 @@
             "parragraph3": "We meet the highest standards in the fruit sector and guarantee deliveries timely and in due form."
         },
         "productTitle": "Products",
+        "productsSubtitles":{
+            "origin":"Origin",
+            "varieties":"Varieties"
+        },
         "products": [
             {
                 "name":"Avocados",

@@ -106,6 +106,10 @@
             "parragraph3": "Cumplimos con los estándares más altos del sector frutícola y garantizamos entregas en tiempo y forma."
         },
         "productTitle": "Productos",
+        "productsSubtitles":{
+            "origin":"Origen",
+            "varieties":"Variedades"
+        },
         "products": [
             {
                 "name":"Paltas",
