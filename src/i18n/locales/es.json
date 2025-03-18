@@ -49,11 +49,26 @@
         "hero": "Cultivamos <strong>calidad</strong>,<br/> cosechamos <strong>confianza</strong>",
         "development": "En Finca Atxona, nos dedicamos al <strong>desarrollo</strong> y a la <strong>producción de vides</strong> y de otras <strong>frutas y verduras de estación.</strong>",
         "technicalSheet": {
-            "blackGrapes" : "Uvas sin semilla negras",
-            "redGlobeGrapes" : "Uvas sin semilla Red Globe",
-            "redGrapes" : "Uvas sin semilla rojas",
-            "pinkGrapes" : "Uvas sin semilla rosadas",
-            "greenGrapes" : "Uvas sin semilla verdes"
+            "blackGrapes" : {
+                "alt": "Uvas negras sin semilla",
+                "src": "/images/fichas-tecnicas/es/uvas-negras-sin-semilla.webp"
+            },
+            "redGlobeGrapes" : {
+                "alt": "Uvas Red Globe con semillas",
+                "src": "/images/fichas-tecnicas/es/uvas-red-globe-con-semilla.webp"
+            },
+            "redGrapes" : {
+                "alt": "Uvas rojas sin semilla",
+                "src": "/images/fichas-tecnicas/es/uvas-rojas-sin-semilla.webp"
+            },
+            "pinkGrapes" : {
+                "alt": "Uvas rosadas sin semilla",
+                "src": "/images/fichas-tecnicas/es/uvas-rosadas-sin-semilla.webp"
+            },
+            "greenGrapes" : {
+                "alt": "Uvas verdes sin semilla",
+                "src": "/images/fichas-tecnicas/es/uvas-verdes-sin-semilla.webp"
+            }
         },
         "processes": {
             "title": "Poseemos parcelas propias de vides asignadas a:",

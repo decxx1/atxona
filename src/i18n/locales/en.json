@@ -49,11 +49,26 @@
         "hero": "Growing <strong>quality</strong>,<br/> harvesting <strong>confidence</strong>",
         "development": "Atxona Estate <strong>develops</strong> and <strong>produces vines</strong> and other season <strong>fruits and vegetables.</strong>",
         "technicalSheet": {
-            "blackGrapes" : "Black seedless grapes",
-            "redGlobeGrapes" : "Uvas sin semilla Red Globe",
-            "redGrapes" : "Red Globe Seedless Grapes",
-            "pinkGrapes" : "Pink Seedless Grapes",
-            "greenGrapes" : "Green seedless grapes"
+            "blackGrapes" : {
+                "alt": "Black seedless grapes",
+                "src": "/images/fichas-tecnicas/en/black-grapes-seedless.webp"
+            },
+            "redGlobeGrapes" : {
+                "alt": "Red Globe grapes with seeds",
+                "src": "/images/fichas-tecnicas/en/red-globe-grapes-with-seeds.webp"
+            },
+            "redGrapes" : {
+                "alt": "Red seedless grapes",
+                "src": "/images/fichas-tecnicas/en/red-grapes-seedless.webp"
+            },
+            "pinkGrapes" : {
+                "alt": "Pink seedless grapes",
+                "src": "/images/fichas-tecnicas/en/pink-grapes-seedless.webp"
+            },
+            "greenGrapes" : {
+                "alt": "Green seedless grapes",
+                "src": "/images/fichas-tecnicas/en/green-grapes-seedless.webp"
+            }
         },
         "processes": {
             "title": "It has its own parcels of vines assigned to:",

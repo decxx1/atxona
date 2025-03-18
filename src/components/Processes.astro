@@ -8,60 +8,74 @@ const i18n = getI18N({ currentLocale });
 <script>
 	import PhotoSwipeLightbox from "photoswipe/lightbox";
 	import "photoswipe/style.css";
-
-	const lightbox = new PhotoSwipeLightbox({
-        dataSource: [
-			// simple image
-			{
-				src: "/images/fichas-tecnicas/uvas-negras.jpg",
-				width: 2250,
-				height: 1850,
-				alt: "Uvas sin semilla Negras",
-			},
-			{
-				src: "/images/fichas-tecnicas/uvas-red-globe.jpg",
-				width: 2250,
-				height: 1850,
-				alt: "Uvas sin semilla Red Globe",
-			},
-            {
-				src: "/images/fichas-tecnicas/uvas-rojas.jpg",
-				width: 2250,
-				height: 1850,
-				alt: "Uvas sin semilla rojas",
-			},
-            {
-				src: "/images/fichas-tecnicas/uvas-rosadas.jpg",
-				width: 2250,
-				height: 1850,
-				alt: "Uvas sin semilla rosadas",
-			},
-            {
-				src: "/images/fichas-tecnicas/uvas-verdes.jpg",
-				width: 2250,
-				height: 1850,
-				alt: "Uvas sin semilla verdes",
-			},
-		],
-		showHideAnimationType: "none",
-		pswpModule: () => import("photoswipe")
-    });
-	
-	lightbox.init();
-	const galleryButton = document.querySelector("#btn-open-pswp") as HTMLElement;
-
-	if (galleryButton) {
-		galleryButton.onclick = () => {
+	document.addEventListener("DOMContentLoaded", () => {
+		const spanElement = document.querySelector('span[data-i18n]') as HTMLSpanElement | null;
+		let technicalSheet;
+		if (spanElement) {
 			try {
-				lightbox.loadAndOpen(0);
+				technicalSheet = JSON.parse(spanElement.dataset.i18n as string);
+				//console.log(technicalSheet);
 			} catch (error) {
-				console.error("Error opening lightbox:", error);
+				console.error("Error al parsear JSON en data-i18n:", error);
 			}
-		};
-	} else {
-		console.error("Gallery button not found.");
-	}
+		} else {
+			console.warn("No se encontró ningún elemento <span> con data-i18n.");
+		}
+	
+		const lightbox = new PhotoSwipeLightbox({
+			dataSource: [
+				{
+					src: technicalSheet.blackGrapes.src,
+					width: 2250,
+					height: 1850,
+					alt: technicalSheet.blackGrapes.alt,
+				},
+				{
+					src: technicalSheet.redGlobeGrapes.src,
+					width: 2250,
+					height: 1850,
+					alt: technicalSheet.redGlobeGrapes.alt,
+				},
+				{
+					src: technicalSheet.redGrapes.src,
+					width: 2250,
+					height: 1850,
+					alt: technicalSheet.redGrapes.alt,
+				},
+				{
+					src: technicalSheet.pinkGrapes.src,
+					width: 2250,
+					height: 1850,
+					alt: technicalSheet.pinkGrapes.alt,
+				},
+				{
+					src: technicalSheet.greenGrapes.src,
+					width: 2250,
+					height: 1850,
+					alt: technicalSheet.greenGrapes.alt,
+				},
+			],
+			showHideAnimationType: "none",
+			pswpModule: () => import("photoswipe")
+		});
+		
+		lightbox.init();
+		const galleryButton = document.querySelector("#btn-open-pswp") as HTMLElement;
+
+		if (galleryButton) {
+			galleryButton.onclick = () => {
+				try {
+					lightbox.loadAndOpen(0);
+				} catch (error) {
+					console.error("Error opening lightbox:", error);
+				}
+			};
+		} else {
+			console.error("Gallery button not found.");
+		}
+	});
 </script>
+<span class="hidden" data-i18n={JSON.stringify(i18n.production.technicalSheet)}></span>
 <section class="relative h-[600px] xs:h-[700px] sm:h-[800px]">
 	<!-- Gradiente -->
 	<div
