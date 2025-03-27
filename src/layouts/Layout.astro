@@ -60,7 +60,7 @@ const langLinks = {
 
 ---
 <!doctype html>
-<html lang="es">
+<html lang={currentLocale}>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -71,7 +71,7 @@ const langLinks = {
 		
 		<!-- SEO -->
 		<link rel="canonical" href={canonical} />
-		<link rel="alternate" hreflang="br-BR" href={alternatePt}>
+		<link rel="alternate" hreflang="pt-BR" href={alternatePt}>
 		<link rel="alternate" hreflang="en-US" href={alternateEn}>
 		<!-- GOOGLE -->
 		<meta name="description" content={metaDescription}/>
@@ -82,6 +82,9 @@ const langLinks = {
 		 <!-- FACEBOOK OPEN GRAPH TAGS -->
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={metaDescription} />
+		<meta property="og:locale" content="es_AR">
+		<meta property="og:locale:alternate" content="en_US">
+		<meta property="og:locale:alternate" content="pt_BR">
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content={canonical} />
 		<meta property="og:image" content={metaImg} />
