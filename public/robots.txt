@@ -1,4 +1,5 @@
 User-agent: *
+Allow: /
 
 Sitemap: https://grupoatxona.com.ar/sitemap.xml
 Sitemap: https://grupoatxona.com/sitemap.xml
