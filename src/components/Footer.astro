@@ -3,10 +3,12 @@ import FacebookIcon from "@/assets/social/facebook-icon.svg";
 import InstagramIcon from "@/assets/social/instagram-icon.svg";
 import WhatsappIcon from "@/assets/social/whatsapp-icon.svg";
 import LogoWhite from "@/assets/logos/atxona-white.svg";
+import World from '@/assets/World.astro';
 
 import Envelope from "@/assets/contact/envelope.svg";
 import Mapmarker from "@/assets/contact/mapmarker.svg";
 import Phone from "@/assets/contact/phone.svg";
+
 import { 
     FACEBOOK,
     INSTAGRAM,
@@ -50,7 +52,16 @@ const i18n = getI18N({ currentLocale });
             <ul class="text-white text-xl px-6">
                 <li class="mb-4 lg:mb-2 text-center"><a class=""><Mapmarker class="w-6 h-auto mr-3 inline-flex" />{ADDRESS}</a></li>
                 <li class="hidden mb-4 lg:mb-2 text-center"><a href={'tel:' + PHONE_FORMAT} target='_blank' class="hover:text-secondary"><Phone class="w-6 h-auto mr-3 inline-flex" />{PHONE}</a></li>
-                <li class="text-center"><a href={'mailto:' + EMAIL} target='_blank' class="hover:text-secondary"><Envelope class="w-6 h-auto mr-3 inline-flex" />{EMAIL}</a></li>
+                <li class="text-center mb-4 lg:mb-2"><a href={'mailto:' + EMAIL} target='_blank' class="hover:text-secondary"><Envelope class="w-6 h-auto mr-3 inline-flex" />{EMAIL}</a></li>
+                <li class="text-center mb-2">
+                    <p class="inline-flex items-center" ><World extraClass='mr-2 size-6'/>Web Carbon B</p>
+                </li>
+                <li class="text-sm lg:text-base mt-1 text-center">
+                    <span class="border-2 border-[#77bb5d] px-2 py-1">0.11g of CO /view</span>
+                    <span class="bg-[#77bb5d] text-gris-cemento font-bold border-2 border-[#77bb5d] -ml-2 px-2 py-1">Website Carbon</span>
+                    <p class="font-light text-center text-xs lg:text-sm mt-1">Cleaner than 74% of pages tested</p>
+                </li>
+            
             </ul>
         </div>
         <p class="text-white text-center text-md pt-20">
